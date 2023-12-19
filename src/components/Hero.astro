@@ -1,0 +1,69 @@
+<section class="hero">
+  <div>
+    <h1
+      class="bg-clip-text bg-gradient-to-b font-extrabold from-white relative text-5xl text-center to-transparent z-10 sm:text-7xl md:text-8xl lg:text-9xl"
+    >
+      SUPLOVERS.CO
+    </h1>
+    <p
+      class="blur-none drop-shadow-lg font-extrabold relative text-base text-beige-100 text-center tracking-wide uppercase z-50"
+    >
+      paddleboard community
+    </p>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="height: 0;">
+    <defs>
+      <filter id="outline-shadow">
+        <feMorphology
+          in="SourceAlpha"
+          operator="dilate"
+          radius="2"
+          result="expanded"></feMorphology>
+        <feFlood flood-color="black" flood-opacity="0.6" result="color"
+        ></feFlood>
+        <feComposite in="color" in2="expanded" operator="in" result="shadow"
+        ></feComposite>
+        <feGaussianBlur in="shadow" stdDeviation="4" result="blurred"
+        ></feGaussianBlur>
+        <feOffset in="blurred" dx="4" dy="5" result="offsetBlurred"></feOffset>
+        <feComposite in="SourceGraphic" in2="offsetBlurred" operator="over"
+        ></feComposite>
+      </filter>
+    </defs>
+  </svg>
+  <img
+    src="assets/imgs/hero.jpg"
+    class="absolute h-full left-0 object-cover top-0 w-full z-0"
+  />
+</section>
+
+
+
+<style>
+    .hero {
+    position: relative;
+
+    /* Set to the size of your image or as required */
+    width: 100%;
+    height: 80vh;
+}
+
+.hero div {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 30%;
+
+    /* Adjust as needed */
+    left: 50%;
+
+    /* Adjust as needed */
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    color: transparent;
+    filter: url(#outline-shadow);
+}
+</style>
+
