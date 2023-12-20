@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/cispata
   image:
-    src: /src/assets/tour-9.jpg
+    src: /src/assets/tour-3.jpeg
     alt: Tour por Cispatá
 
 section_1:
   title: Cispatá
   description: Explora la belleza del manglar en el Tour de Ruta Cispatá
   button_text: WhatsApp
-  image: /src/assets/tour-10.jpeg
+  image: /src/assets/tour-3.jpeg
 
 section_2:
   title: Cispatá

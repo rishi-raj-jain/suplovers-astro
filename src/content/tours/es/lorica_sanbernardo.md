@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/lorica
   image:
-    src: /src/assets/tour-7.jpg
+    src: /src/assets/tour-1.jpeg
     alt: Tour en Lorica
 
 section_1:
   title: Lorica
   description: Explora la diversidad del manglar en el Tour de Ruta Lorica
   button_text: WhatsApp
-  image: /src/assets/tour-8.jpeg
+  image: /src/assets/tour-1.jpeg
 
 section_2:
   title: Lorica

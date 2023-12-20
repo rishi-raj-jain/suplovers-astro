@@ -5,12 +5,22 @@ hero:
   image: /src/assets/hero.jpg
 
 classes: 
-  heading: CLASES Y CURSOS
+  heading: CLASES 
+  heading_span: Y CURSOS
   subheading: aprende con nosotros
   paragraph: > 
     DESCUBRE LA MAGIA DEL PADDLEBOARDING CON NUESTRAS CLASES PARA TODOS LOS NIVELES. DESDE PRINCIPIANTES HASTA AVANZADOS, EXPERIMENTA UNA CONEXIÓN ÚNICA CON LA NATURALEZA EN CADA SESIÓN. ÚNETE A NOSOTROS PARA EMBARCARTE EN ESTA EMOCIONANTE AVENTURA ACUÁTICA.
   button_text: leer mas...
-  button_link: clases
+  button_link: /clases
+  image_1:
+    src: /src/assets/clases-boy.jpg
+    alt: niño aprendiendo paddle
+  image_2:
+    src: /src/assets/clases-woman.jpg
+    alt: mujer remando sobre paddleboard
+  image_3:  
+    src: /src/assets/clases-man.jpg
+    alt: hombre remando sobre paddleboard
 
 rentals: 
   heading: Alquileres

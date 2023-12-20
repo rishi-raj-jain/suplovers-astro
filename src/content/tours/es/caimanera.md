@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/caymanera
   image:
-    src: /src/assets/tour-5.jpg
+    src: /src/assets/tour-2.jpeg
     alt: Recorrido en remo en Caimanera
 
 section_1:
   title: Caimanera
   description: Explora la belleza natural en el Tour de Ruta Caimanera
   button_text: WhatsApp
-  image: /src/assets/tour-6.jpeg
+  image: /src/assets/tour-2.jpeg
 
 section_2:
   title: Caimanera
