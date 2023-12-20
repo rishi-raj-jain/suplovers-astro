@@ -53,8 +53,56 @@ const tours = defineCollection({
       }),
     }),
 });
+
+const rentals = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      equipment: z.string(),
+      rental_modality: z.array(
+        z.object({
+          duration: z.string(),
+          cost: z.string(),
+        })
+      ),
+      club_three_days: z.object({
+        duration: z.string(),
+        cost: z.string(),
+      }),
+
+      club_five_days: z.object({
+        duration: z.string(),
+        cost: z.string(),
+      }),
+
+      whatsapp_button: z.string(),
+      image: image(),
+    }),
+});
+
+const paddleClass = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      heading: z.string(),
+      subheading: z.string(),
+      paragraph: z.string(),
+      duration: z.string(),
+      cost: z.string(),
+      whatsapp_text: z.string(),
+      whatsapp_link: z.string(),
+      image: z.object({
+        src: image(),
+        alt: z.string(),
+      }),
+    }),
+});
+
 // 3. Export a single `collections` object to register your collection(s)
 export const collections = {
   frontPage: frontPage,
   tours: tours,
+  rentals,
+  paddleClass,
 };
