@@ -15,10 +15,23 @@ const frontPage = defineCollection({
       classes: z
         .object({
           heading: z.string().optional(),
+          heading_span: z.string().optional(),
           subheading: z.string().optional(),
           paragraph: z.string().optional(),
           button_text: z.string().optional(),
           button_link: z.string().optional(),
+          image_1: z.object({
+            src: image(),
+            alt: z.string(),
+          }),
+          image_2: z.object({
+            src: image(),
+            alt: z.string(),
+          }),
+          image_3: z.object({
+            src: image(),
+            alt: z.string(),
+          }),
         })
         .optional(),
       rentals: z.object({
@@ -29,7 +42,7 @@ const frontPage = defineCollection({
             cost: z.string(),
             button_text: z.string(),
             button_link: z.string(),
-            image: z.string(),
+            image: image(),
           })
         ),
       }),
@@ -46,7 +59,7 @@ const tours = defineCollection({
         button_text: z.string(),
         button_link: z.string(),
         image: z.object({
-          src: z.string(),
+          src: image(),
           alt: z.string(),
         }),
       }),
