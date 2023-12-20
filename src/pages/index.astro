@@ -2,8 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import { Image } from "astro:assets";
-import { getEntry } from "astro:content";
+import { getEntry, getCollection } from "astro:content";
 const { data } = await getEntry("frontPage", "es");
+console.log(data);
 ---
 
 <Layout>
@@ -160,20 +161,17 @@ const { data } = await getEntry("frontPage", "es");
         <h4
           class="decoration-0 decoration-lime_green-500 font-paragraphs text-lime_green-700 underline underline-offset-8"
         >
-          Aprende con nosotros
+          {data.classes.heading}
         </h4>
         <h3 class="mt-5 text-5xl text-background_cyan-500 sm:text-6xl">
           clases <span class="block">y cursos&nbsp;</span>
         </h3>
         <p class="mt-3 text-dark_cyan-500 w-5/6">
-          Descubre la magia del paddleboarding con nuestras clases para todos
-          los niveles. Desde principiantes hasta avanzados, experimenta una
-          conexión única con la naturaleza en cada sesión. Únete a nosotros para
-          embarcarte en esta emocionante aventura acuática.
+          {data.classes.paragraph}
         </p>
         <button
           class="bg-lime_green-600 flex-shrink-0 font-medium font-paragraphs mt-6 px-4 py-2 rounded-lg self-start text-white"
-          >LEER MAS...
+          >{data.classes.button_text}
         </button>
       </div>
       <div
