@@ -2,6 +2,7 @@
 import { z, defineCollection } from "astro:content";
 
 // 2. Define a `type` and `schema` for each collection
+
 const frontPage = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -10,6 +11,27 @@ const frontPage = defineCollection({
         heading: z.string(),
         subheading: z.string(),
         image: image(),
+      }),
+      classes: z
+        .object({
+          heading: z.string().optional(),
+          subheading: z.string().optional(),
+          paragraph: z.string().optional(),
+          button_text: z.string().optional(),
+          button_link: z.string().optional(),
+        })
+        .optional(),
+      rentals: z.object({
+        heading: z.string(),
+        cards: z.array(
+          z.object({
+            duration: z.string(),
+            cost: z.string(),
+            button_text: z.string(),
+            button_link: z.string(),
+            image: z.string(),
+          })
+        ),
       }),
     }),
 });
@@ -81,7 +103,7 @@ const rentals = defineCollection({
     }),
 });
 
-const paddleClass = defineCollection({
+const classes = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
@@ -104,5 +126,5 @@ export const collections = {
   frontPage: frontPage,
   tours: tours,
   rentals,
-  paddleClass,
+  classes,
 };
