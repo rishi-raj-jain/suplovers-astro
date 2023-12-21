@@ -10,9 +10,22 @@ import Footer from "../components/Footer.astro";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="font-paragraphs">
     <NavBar />
     <slot />
     <Footer />
   </body>
 </html>
+
+<style is:global>
+  @font-face {
+    font-family: "THICCCBOI";
+    src: url("/fonts/THICCCBOI-ThicccAF.woff2") format("woff2");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Montserrat-VariableFont";
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("woff2");
+  }
+</style>

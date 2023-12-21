@@ -1,10 +1,10 @@
 ---
 card:
-  title: RUTA CAYMANERA
+  title: RUTA CAIMANERA
   paragraph: >
     Recorrido de 6 kilómetros que incluye rutas a través de senderos de manglares y un recorrido alrededor de la Ciénaga. La duración aproximada es de dos horas con un costo de 120,000 pesos. Avistamiento de aves y, si tenemos suerte, la posibilidad de ver mapaches.
   button_text: Leer más...
-  button_link: /tours/caymanera
+  button_link: /tours/caimanera
   image:
     src: /src/assets/tour-2.jpeg
     alt: Recorrido en remo en Caimanera

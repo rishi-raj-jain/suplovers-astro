@@ -3,6 +3,12 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        titles: ["THICCCBOI", "sans-serif"],
+        paragraphs: ["Montserrat", "sans-serif"],
+      },
+
       colors: {
         dark_cyan: {
           50: "#dae2e4",
@@ -29,19 +35,6 @@ export default {
           800: "#0a1a1e",
           900: "#071518",
           950: "#030e11",
-        },
-        yellow: {
-          50: "#fff9d9",
-          100: "#fff3bb",
-          200: "#ffec9c",
-          300: "#ffe579",
-          400: "#ffde51",
-          500: "#FFD700",
-          600: "#dcb900",
-          700: "#b99c00",
-          800: "#988000",
-          900: "#786500",
-          950: "#594b00",
         },
         bright_cyan: {
           50: "#dff6fa",

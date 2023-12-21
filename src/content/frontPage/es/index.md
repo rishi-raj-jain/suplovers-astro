@@ -1,8 +1,13 @@
 ---
 hero:
-  heading: SUPLOVER.CO
+  heading: SUPLOVERS.CO
   subheading: PADDLEBOARD COMMUNITY
   image: /src/assets/hero.jpg
+
+tours:
+  heading: EXPLORA NUESTROS TOURS
+  button_text: WhatsApp
+  button_link: link to juancho
 
 classes: 
   heading: CLASES 

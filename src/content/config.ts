@@ -12,6 +12,11 @@ const frontPage = defineCollection({
         subheading: z.string(),
         image: image(),
       }),
+      tours: z.object({
+        heading: z.string(),
+        button_text: z.string(),
+        button_link: z.string(),
+      }),
       classes: z
         .object({
           heading: z.string().optional(),
