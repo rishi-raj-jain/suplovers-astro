@@ -77,7 +77,10 @@ const tours = defineCollection({
       section_2: z.object({
         title: z.string(),
         description: z.string(),
-        highlights: z.array(z.string()),
+        highlights: z.object({
+          title: z.string(),
+          list: z.array(z.string()),
+        }),
         map: z.object({
           src: z.string(),
         }),
@@ -88,7 +91,8 @@ const tours = defineCollection({
           difficulty: z.string(),
         }),
       }),
-      section_4: z.object({
+      section_3: z.object({
+        title: z.string(),
         inclusions: z.array(z.string()),
       }),
     }),
