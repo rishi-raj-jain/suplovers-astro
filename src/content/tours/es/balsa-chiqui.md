@@ -19,6 +19,8 @@ section_2:
   title: Balsa Chiqui
   description: >
     Descubre la Ruta Balsa Chiqui, una remada de aproximadamente 7 kilómetros que sube por todo el caño hasta llegar a Chiqui, donde hay una pequeña ciénaga. Se da una vuelta en la ciénaga y luego se baja por el caño hasta el punto de partida. Este tour tiene un costo de 320,000 pesos e incluye todos los transportes desde Coveñas hasta San Bernardo del Viento, donde comienza el recorrido en balsa.
+  cost: 320.000 pesos
+
   highlights:
     title: atracciones
     list:

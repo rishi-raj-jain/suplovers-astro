@@ -19,6 +19,8 @@ section_2:
   title: Cispatá
   description: >
     Descubre Cispatá, un tour que abarca todo el manglar del ecosistema de la desembocadura del río Sinú. El recorrido de tres horas comienza en Coveñas y se traslada por tierra hasta las playas de San Antero, donde inicia un recorrido de ocho kilómetros explorando los manglares de la bahía. Posteriormente, toma el caño lobo para regresar a las playas de San Antero. El costo de este tour es de 220,000 pesos.
+  cost: 220.000 pesos.
+  
   highlights:
     title: atracciones
     list:

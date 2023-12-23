@@ -19,6 +19,8 @@ section_2:
   title: Caimanera
   description: >
     Descubre la Ruta Caimanera, un recorrido de 6 kilómetros que abarca senderos en los manglares y luego una vuelta por la Ciénaga. Este tour tiene una duración aproximada de dos horas y un costo de 120,000 pesos. Durante el recorrido, se pueden avistar aves, y si tenemos suerte, incluso mapaches.
+  cost: 120.000 pesos
+
   highlights:
     title: atracciones
     list:

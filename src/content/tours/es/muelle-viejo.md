@@ -22,7 +22,8 @@ section_2:
     Este pintoresco remo de 3.5 kilómetros cerca de las playas de Coveñas te lleva a
     los restos del antiguo muelle de Copetrol. El muelle siempre está poblado por
     pelícanos, gaviotas y otros pájaros, convirtiéndolo en un lugar perfecto para los amantes de la observación de aves.
-  
+  cost: 60.000 pesos
+
   highlights:
     title: atracciones
     list:
