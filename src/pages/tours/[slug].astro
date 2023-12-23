@@ -82,9 +82,19 @@ const {
         >
           {data.section_2.title}
         </h3>
-        <p class="font-paragraphs text-center text-lg md:text-left">
+        <p
+          class="font-paragraphs text-center text-background_cyan-500 text-lg md:text-left"
+        >
           {data.section_2.description}
         </p>
+        <div class="flex flex-col items-center mt-4 md:flex-row">
+          <h4 class="font-titles font-bold uppercase text-lg me-2">costo:</h4>
+          <p
+            class="font-paragraphs text-background_cyan-500 tracking-wider uppercase font-bold"
+          >
+            {data.section_2.cost}
+          </p>
+        </div>
         <div class="mt-10"></div>
         <div class="mt-5">
           <div class="mb-4">
