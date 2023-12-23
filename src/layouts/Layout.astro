@@ -1,21 +1,8 @@
 ---
+import { ViewTransitions } from "astro:transitions";
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
 ---
-
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body class="font-paragraphs">
-    <NavBar />
-    <slot />
-    <Footer />
-  </body>
-</html>
 
 <style is:global>
   @font-face {
@@ -29,3 +16,17 @@ import Footer from "../components/Footer.astro";
     src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("woff2");
   }
 </style>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <ViewTransitions />
+  </head>
+  <body class="font-paragraphs">
+    <NavBar />
+    <slot />
+    <Footer />
+  </body>
+</html>
