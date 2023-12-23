@@ -132,9 +132,17 @@ const classes = defineCollection({
     z.object({
       heading: z.string(),
       subheading: z.string(),
-      paragraph: z.string(),
-      duration: z.string(),
-      cost: z.string(),
+      description: z.string(),
+
+      duration: z.object({
+        title: z.string(),
+        duration: z.string(),
+      }),
+      cost: z.object({
+        title: z.string(),
+        cost: z.string(),
+      }),
+
       whatsapp_text: z.string(),
       whatsapp_link: z.string(),
       image: z.object({
