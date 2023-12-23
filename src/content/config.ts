@@ -77,6 +77,7 @@ const tours = defineCollection({
       section_2: z.object({
         title: z.string(),
         description: z.string(),
+        cost: z.string(),
         highlights: z.object({
           title: z.string(),
           list: z.array(z.string()),
