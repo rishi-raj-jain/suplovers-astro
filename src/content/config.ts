@@ -103,26 +103,37 @@ const rentals = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
-      title: z.string(),
+      heading: z.string(),
+      subheading: z.string(),
       equipment: z.string(),
-      rental_modality: z.array(
-        z.object({
-          duration: z.string(),
-          cost: z.string(),
-        })
-      ),
+      rental_modalities: z.object({
+        title: z.string(),
+        list: z.array(
+          z.object({
+            duration: z.string(),
+            cost: z.string(),
+          })
+        ),
+      }),
+
       club_three_days: z.object({
+        title: z.string(),
         duration: z.string(),
         cost: z.string(),
       }),
 
       club_five_days: z.object({
+        title: z.string(),
         duration: z.string(),
         cost: z.string(),
       }),
 
       whatsapp_button: z.string(),
-      image: image(),
+      whatsapp_link: z.string(),
+      image: z.object({
+        src: image(),
+        alt: z.string(),
+      }),
     }),
 });
 
@@ -152,10 +163,63 @@ const classes = defineCollection({
     }),
 });
 
+const subheadingSchema = z.object({
+  main: z.string(),
+  span: z.string(),
+});
+
+const about_us = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      about_us: z.object({
+        heading: z.string(),
+        subheading: subheadingSchema,
+        description: z.string(),
+        button_text: z.string(),
+        button_link: z.string(),
+        image: z.object({
+          src: image(),
+          alt: z.string(),
+        }),
+      }),
+      philosophy: z.object({
+        heading: z.string(),
+        subheading: subheadingSchema,
+        description: z.string(),
+        button_text: z.string(),
+        button_link: z.string(),
+        image: z.object({
+          src: image(),
+          alt: z.string(),
+        }),
+      }),
+      join_us: z.object({
+        heading: z.string(),
+        description: z.string(),
+        button_text: z.string(),
+        button_link: z.string(),
+      }),
+    }),
+});
+
+const contact = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      heading: z.string(),
+      description: z.string(),
+      button_text: z.string(),
+      button_link: z.string(),
+    }),
+});
+
 // 3. Export a single `collections` object to register your collection(s)
 export const collections = {
   frontPage: frontPage,
   tours: tours,
   rentals,
   classes,
+  about_us,
+  contact,
 };
