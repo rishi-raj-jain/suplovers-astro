@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/balsa-chiqui
   image:
-    src: /src/assets/tour-1.jpeg
+    src: /src/assets/balsa-chiqui.jpg
     alt: Tour en Balsa Chiqui
 
 section_1:
   title: Balsa Chiqui
   description: Explora la tranquilidad del caño en el Tour de Ruta Balsa Chiqui
   button_text: WhatsApp
-  image: /src/assets/tour-1.jpeg
+  image: /src/assets/balsa-chiqui.jpg
 
 section_2:
   title: Balsa Chiqui

@@ -1,19 +1,19 @@
 ---
 card:
-  title: RUTA LORICA
+  title: RUTA LIRICA SAN BERNARDO
   paragraph: >
     Rally sobre el río Sinú de 30 kilómetros, con una duración aproximada de cuatro horas. Incluye todos los transportes desde Lórica hasta San Bernardo del Viento y regreso a Coveñas.
   button_text: Leer más...
-  button_link: /tours/lorica-sanbernardo
+  button_link: /tours/lirica-san-bernardo
   image:
-    src: /src/assets/tour-1.jpeg
+    src: /src/assets/lirica-san-bernardo-card.jpg
     alt: Tour en Lorica
 
 section_1:
   title: Lorica
   description: Explora la diversidad del manglar en el Tour de Ruta Lorica
   button_text: WhatsApp
-  image: /src/assets/tour-1.jpeg
+  image: /src/assets/lirica-san-bernardo.jpg
 
 section_2:
   title: Lorica

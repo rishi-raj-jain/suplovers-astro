@@ -1,22 +1,22 @@
 ---
 card:
-  title: RUTA CISPATÁ
+  title: RUTA CISPATA
   paragraph: >
     Tour por todo el manglar del ecosistema de la desembocadura del río Sinú. Recorrido de siete kilómetros que dura aproximadamente tres horas.
   button_text: Leer más...
   button_link: /tours/cispata
   image:
-    src: /src/assets/tour-3.jpeg
+    src: /src/assets/cispata.jpg
     alt: Tour por Cispatá
 
 section_1:
-  title: Cispatá
+  title: Cispata
   description: Explora la belleza del manglar en el Tour de Ruta Cispatá
   button_text: WhatsApp
-  image: /src/assets/tour-3.jpeg
+  image: /src/assets/cispata.jpg
 
 section_2:
-  title: Cispatá
+  title: Cispata
   description: >
     Descubre Cispatá, un tour que abarca todo el manglar del ecosistema de la desembocadura del río Sinú. El recorrido de tres horas comienza en Coveñas y se traslada por tierra hasta las playas de San Antero, donde inicia un recorrido de ocho kilómetros explorando los manglares de la bahía. Posteriormente, toma el caño lobo para regresar a las playas de San Antero. El costo de este tour es de 220,000 pesos.
   cost: 220.000 pesos.

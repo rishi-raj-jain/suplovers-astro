@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/punta-de-piedra
   image:
-    src: /src/assets/tour-2.jpeg
+    src: /src/assets/punte-piedra-card.jpg
     alt: Recorrido en remo en Punta de Piedra
 
 section_1:
   title: Punta de Piedra
   description: Descubre la belleza marina en el recorrido de remo de Ruta Punta de Piedra
   button_text: WhatsApp
-  image: /src/assets/tour-2.jpeg
+  image: /src/assets/punte-piedra-card.jpg
 
 section_2:
   title: Punta de Piedra

@@ -33,16 +33,16 @@ rentals:
     - duration: 1/2 hora
       cost: $30.000
       button_text: leer mas...
-      button_link: /clases
+      button_link: /alquileres
       image: /src/assets/boards-1.jpg
     - duration: 1 hora
       cost: $50.000
       button_text: leer mas...
-      button_link: /clases
-      image: /src/assets/boards-1.jpg
+      button_link: /alquileres
+      image: /src/assets/boards-2.jpg
     - duration: 2 hora
       cost: $80.000
       button_text: leer mas...
-      button_link: /clases
-      image: /src/assets/boards-1.jpg
+      button_link: /alquileres
+      image: /src/assets/boards-3.jpg
 ---

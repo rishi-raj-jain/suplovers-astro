@@ -6,14 +6,14 @@ card:
   button_text: Leer más...
   button_link: /tours/muelle-viejo
   image:
-    src: /src/assets/tour-1.jpeg
+    src: /src/assets/muelle-viejo-card.jpg
     alt: recorrido en remo en Muelle Viejo
 
 section_1:
   title: Muelle Viejo
   description: Descubre la belleza costera en el recorrido de remo de Ruta Muelle Viejo
   button_text: WhatsApp
-  image: /src/assets/tour-1.jpeg
+  image: /src/assets/muelle-viejo.jpg
 
 section_2:
   title: Muelle Viejo
