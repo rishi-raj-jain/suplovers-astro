@@ -1,0 +1,31 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Icon } from "astro-icon";
+---
+
+<div class="flex justify-center items-center">
+  <a
+    href={getRelativeLocaleUrl("es")}
+    class="flex items-center font-medium text-white active:text-yellow-500 font-paragraphs hover:text-yellow-500 px-2 py-2 uppercase lg:focus:text-yellow-500 lg:ps-4 lg:pe-2"
+    ><Icon name="es" /><span
+      class="inline-block ml-1 uppercase text-xs font-semibold font-all"
+      >ES</span
+    ></a
+  >
+  <!-- vertical line between languages -->
+  <div class="w-px h-4 bg-white inline-block"></div>
+  <a
+    href={getRelativeLocaleUrl("en")}
+    class="flex items-center font-medium text-white active:text-yellow-500 font-paragraphs hover:text-yellow-500 px-2 py-2 uppercase lg:focus:text-yellow-500 lg:ps-2 lg:pe-4"
+    ><Icon name="en" /><span
+      class="inline-block ml-1 uppercase text-xs font-semibold font-all"
+      >EN</span
+    ></a
+  >
+</div>
+
+<style lang="css">
+  [astro-icon] {
+    width: 1.3rem;
+  }
+</style>
