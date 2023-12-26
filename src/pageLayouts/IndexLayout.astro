@@ -1,6 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { getLangFromUrl } from "../i18n/utils";
+import { getLangFromUrl, useTranslationsForRoutes } from "../i18n/utils";
 import { Image } from "astro:assets";
 import TourCard from "../components/TourCard.astro";
 import Hero from "../components/Hero.astro";
@@ -9,7 +9,7 @@ import Layout from "../layouts/Layout.astro";
 const { data, tours } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
-
+const path = useTranslationsForRoutes(lang);
 ---
 
 <Layout>
@@ -25,7 +25,7 @@ const lang = getLangFromUrl(Astro.url);
           {data.tours.heading}
         </h2>
         <a
-          href={getRelativeLocaleUrl(lang, data.tours.button_link)}
+          href={data.tours.button_link}
           class="bg-transparent border border-solid border-yellow-500 font-medium font-paragraphs inline-flex items-center ml-10 mt-5 px-4 py-2 rounded-lg self-start text-xl text-yellow-500 z-50"
         >
           <svg
@@ -56,7 +56,7 @@ const lang = getLangFromUrl(Astro.url);
               class="bg-dark_cyan-600 flex flex-col h-full items-center justify-center px-3 py-10 shadow-xl text-center"
             >
               <a
-                href="/tours"
+                href={getRelativeLocaleUrl(lang, path("tours"))}
                 class="bg-transparent border border-opacity-30 border-solid border-yellow-500 font-paragraphs font-thin px-4 py-2 rounded-lg shadow-2xl text-9xl text-yellow-400 uppercase"
                 >+</a
               >
@@ -194,7 +194,7 @@ const lang = getLangFromUrl(Astro.url);
               >
                 <div class="mb-2 text-center">
                   <a
-                    href="/alquileres"
+                    href={getRelativeLocaleUrl(lang, path("rentals"))}
                     class="bg-transparent border border-opacity-30 border-solid border-yellow-500 font-paragraphs font-thin px-4 py-2 rounded-lg shadow-2xl text-9xl text-yellow-400 uppercase"
                     >+</a
                   >
