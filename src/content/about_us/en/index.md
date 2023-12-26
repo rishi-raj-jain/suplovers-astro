@@ -9,7 +9,7 @@ about_us:
     button_text: WhatsApp
     button_link: Link here
     image:
-        src: /src/assets/hero.jpg
+        src: /src/assets/hero-small.jpg
         alt: group paddleboarding
 
 philosophy:
@@ -22,7 +22,7 @@ philosophy:
     button_text: WhatsApp
     button_link: Link here
     image:
-        src: /src/assets/hero.jpg
+        src: /src/assets/aerea-small.jpg
         alt: group paddleboarding
 
 join_us:
