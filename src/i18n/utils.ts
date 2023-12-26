@@ -17,3 +17,35 @@ export function useTranslationsForRoutes(lang: keyof typeof routes) {
     return routes[lang][key] || routes[defaultLang][key];
   };
 }
+
+type NavFunction = (key: string) => string;
+
+export const navLinks = (
+  t: NavFunction,
+  path: NavFunction
+): { name: string; path: string }[] => [
+  {
+    name: t("nav.home"),
+    path: path("home"),
+  },
+  {
+    name: t("nav.tours"),
+    path: path("tours"),
+  },
+  {
+    name: t("nav.classes"),
+    path: path("classes"),
+  },
+  {
+    name: t("nav.rentals"),
+    path: path("rentals"),
+  },
+  {
+    name: t("nav.aboutUs"),
+    path: path("aboutUs"),
+  },
+  {
+    name: t("nav.contact"),
+    path: path("contact"),
+  },
+];

@@ -1,9 +1,9 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { getLangFromUrl } from "../i18n/utils";
-const lang = getLangFromUrl(Astro.url);
+
 const {
   linkData: { path, name },
+  lang,
 } = Astro.props;
 ---
 

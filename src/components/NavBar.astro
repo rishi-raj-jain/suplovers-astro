@@ -3,40 +3,16 @@ import {
   getLangFromUrl,
   useTranslations,
   useTranslationsForRoutes,
+  navLinks,
 } from "../i18n/utils";
 import SocialMediaNav from "./SocialMediaNav.astro";
 import NavLink from "./NavLink.astro";
 const lang = getLangFromUrl(Astro.url);
-console.log(lang);
+
 const t = useTranslations(lang);
 const path = useTranslationsForRoutes(lang);
 
-const navLinks = [
-  {
-    name: t("nav.home"),
-    path: path("home"),
-  },
-  {
-    name: t("nav.tours"),
-    path: path("tours"),
-  },
-  {
-    name: t("nav.classes"),
-    path: path("classes"),
-  },
-  {
-    name: t("nav.rentals"),
-    path: path("rentals"),
-  },
-  {
-    name: t("nav.aboutUs"),
-    path: path("aboutUs"),
-  },
-  {
-    name: t("nav.contact"),
-    path: path("contact"),
-  },
-];
+const navData = navLinks(t, path);
 ---
 
 <header>
@@ -97,7 +73,11 @@ const navLinks = [
         <div
           class="flex flex-col font-medium font-paragraphs text-white lg:flex-row"
         >
-          {navLinks.map((link) => <NavLink linkData={link} />)}
+          {
+            navData.map((linkData) => (
+              <NavLink linkData={linkData} lang={lang} />
+            ))
+          }
         </div>
       </div>
       <div class="flex justify-center items-center">

@@ -1,6 +1,17 @@
 ---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import {
+  getLangFromUrl,
+  useTranslations,
+  useTranslationsForRoutes,
+} from "../i18n/utils";
+
 import { Image } from "astro:assets";
 import Logo from "../assets/logo.png";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const path = useTranslationsForRoutes(lang);
 ---
 
 <footer
@@ -70,23 +81,23 @@ import Logo from "../assets/logo.png";
       <!-- nav menu -->
       <div class="w-full p-4 xl:w-2/12 sm:w-4/12">
         <a
-          href="/nosotros"
+          href={getRelativeLocaleUrl(lang, path("aboutUs"))}
           class="font-bold mb-8 text-lg uppercase hover:text-yellow-500"
-          >Nosotros</a
+          >{t("nav.aboutUs")}</a
         >
       </div>
       <div class="w-full p-4 xl:w-2/12 sm:w-4/12">
         <a
-          href="/tours"
+          href={getRelativeLocaleUrl(lang, path("tours"))}
           class="font-bold mb-8 text-lg uppercase hover:text-yellow-500"
-          >TOURS</a
+          >{t("nav.tours")}</a
         >
       </div>
       <div class="w-full p-4 xl:w-2/12 sm:w-4/12">
         <a
-          href="/contacto"
+          href={getRelativeLocaleUrl(lang, path("contact"))}
           class="font-bold mb-8 text-lg uppercase hover:text-yellow-500"
-          >Contacto</a
+          >{t("nav.contact")}</a
         >
       </div>
     </div>
