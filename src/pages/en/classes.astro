@@ -1,0 +1,13 @@
+---
+import { getEntry } from "astro:content";
+import ClassesLayout from "../../pageLayouts/ClassesLayout.astro";
+const { data: masterClass } = await getEntry("classes", "en/master-class");
+const { data: miniClass } = await getEntry("classes", "en/mini-class");
+const { data: advancedClass } = await getEntry("classes", "en/advanced");
+---
+
+<ClassesLayout
+  masterClass={masterClass}
+  miniClass={miniClass}
+  advancedClass={advancedClass}
+/>

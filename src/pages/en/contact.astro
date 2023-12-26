@@ -1,0 +1,7 @@
+---
+import ContactLayout from "../../pageLayouts/ContactLayout.astro";
+import { getEntry } from "astro:content";
+const { data } = await getEntry("contact", "en");
+---
+
+<ContactLayout data={data} />

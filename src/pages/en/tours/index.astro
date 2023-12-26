@@ -1,0 +1,7 @@
+---
+import TourLayout from "../../../pageLayouts/ToursLayout.astro";
+import { getCollection } from "astro:content";
+const tours = await getCollection("tours", ({ id }) => id.startsWith("en/"));
+---
+
+<TourLayout tours={tours} />

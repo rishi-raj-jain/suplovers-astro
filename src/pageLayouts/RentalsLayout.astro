@@ -1,12 +1,11 @@
 ---
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
-import { getEntry } from "astro:content";
-const { data } = await getEntry("rentals", "es");
+const {data} = Astro.props;
 ---
 
 <Layout>
-  <main class="bg-dark_cyan-500" data-pg-collapsed>
+  <main class="bg-dark_cyan-500">
     <section
       class="bg-beige-500 text-center text-gray-500 lg:py-16 lg:text-left"
     >
