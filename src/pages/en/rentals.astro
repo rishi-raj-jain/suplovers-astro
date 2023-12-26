@@ -1,0 +1,7 @@
+---
+import RentalsLayout from "../../pageLayouts/RentalsLayout.astro";
+import { getEntry } from "astro:content";
+const { data } = await getEntry("rentals", "en");
+---
+
+<RentalsLayout data={data} />
