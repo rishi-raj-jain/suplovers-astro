@@ -1,12 +1,14 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
 const {
-  linkData: { url, name },
+  linkData: { path, name },
 } = Astro.props;
 ---
 
 <a
-  href={getRelativeLocaleUrl("es", url)}
+  href={getRelativeLocaleUrl(lang, path)}
   class="active:text-yellow-500 font-paragraphs hover:text-yellow-500 px-0 py-2 uppercase lg:focus:text-yellow-500 lg:px-3"
 >
   {name}

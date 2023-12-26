@@ -1,31 +1,40 @@
 ---
+import {
+  getLangFromUrl,
+  useTranslations,
+  useTranslationsForRoutes,
+} from "../i18n/utils";
 import SocialMediaNav from "./SocialMediaNav.astro";
 import NavLink from "./NavLink.astro";
+const lang = getLangFromUrl(Astro.url);
+console.log(lang);
+const t = useTranslations(lang);
+const path = useTranslationsForRoutes(lang);
 
 const navLinks = [
   {
-    name: "Inicio",
-    url: "/",
+    name: t("nav.home"),
+    path: path("home"),
   },
   {
-    name: "Tours",
-    url: "/tours",
+    name: t("nav.tours"),
+    path: path("tours"),
   },
   {
-    name: "Clases",
-    url: "/clases",
+    name: t("nav.classes"),
+    path: path("classes"),
   },
   {
-    name: "Alquileres",
-    url: "/alquileres",
+    name: t("nav.rentals"),
+    path: path("rentals"),
   },
   {
-    name: "Nosotros",
-    url: "/nosotros",
+    name: t("nav.aboutUs"),
+    path: path("aboutUs"),
   },
   {
-    name: "Contacto",
-    url: "/contacto",
+    name: t("nav.contact"),
+    path: path("contact"),
   },
 ];
 ---
