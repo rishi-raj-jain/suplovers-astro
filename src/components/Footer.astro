@@ -1,3 +1,8 @@
+---
+import { Image } from "astro:assets";
+import Logo from "../assets/logo.png";
+---
+
 <footer
   class="bg-gray-900 font-light pt-12 text-gray-300"
   data-pgc-define="footer"
@@ -9,7 +14,9 @@
         <a
           href="/"
           class="font-medium font-titles hover:text-blue-800 inline-block mb-6 mr-auto text-3xl text-yellow-500 uppercase"
-          >Suplovers.co</a
+          ><div class="-mt-8 h-24 mb-5 w-1/4" data-pg-collapsed>
+            <Image src={Logo} alt="logo" class="h-full object-contain" />
+          </div></a
         >
         <p class="mb-4 text-sm">
           somos una comunidad dedicada que comparte la pasión por conectar a las
