@@ -18,13 +18,13 @@ classes:
   button_text: leer mas...
   button_link: /clases
   image_1:
-    src: /src/assets/clases-boy.jpg
+    src: /src/assets/classes-boy.jpg
     alt: niño aprendiendo paddle
   image_2:
-    src: /src/assets/clases-woman.jpg
+    src: /src/assets/classes-woman.jpg
     alt: mujer remando sobre paddleboard
   image_3:  
-    src: /src/assets/clases-man.jpg
+    src: /src/assets/classes-man.jpg
     alt: hombre remando sobre paddleboard
 
 rentals: 

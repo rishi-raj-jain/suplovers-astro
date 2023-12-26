@@ -1,14 +1,14 @@
 ---
 import { getEntry } from "astro:content";
 
-import IndexLayout from "../pageLayouts/IndexLayout.astro";
+import IndexLayout from "../../pageLayouts/IndexLayout.astro";
 const muelleViejo = await getEntry("tours", "es/muelle-viejo");
 const playaBlanca = await getEntry("tours", "es/playa-blanca");
 const puntaDePiedra = await getEntry("tours", "es/punta-de-piedra");
 
 const tours = [muelleViejo, playaBlanca, puntaDePiedra];
 
-const { data } = await getEntry("frontPage", "es");
+const { data } = await getEntry("frontPage", "en");
 ---
 
 <IndexLayout data={data} tours={tours} />
