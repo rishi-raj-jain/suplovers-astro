@@ -17,18 +17,21 @@ const navData = navLinks(t, path);
 ---
 
 <script>
-  const menuBlock = document.querySelector(".menu_block");
-  const hamButton = document.querySelector(".ham_button");
   const dropDownMenu = document.querySelector(".dropdown-menu");
   const menuMediaQuery = window.matchMedia("(min-width: 1024px)");
 
-  hamButton?.addEventListener("click", () => {
-    if (window.getComputedStyle(menuBlock, "null").display === "none") {
-      menuBlock.classList.remove("hidden");
-      //menuBlock.classList.add("flex-col", "flex");
-    } else {
-      menuBlock?.classList.add("hidden");
-    }
+  document.addEventListener("astro:page-load", () => {
+    console.log("page loaded");
+    const menuBlock = document.querySelector(".menu_block");
+    const hamButton = document.querySelector(".ham_button");
+    hamButton?.addEventListener("click", () => {
+      if (window.getComputedStyle(menuBlock, "null").display === "none") {
+        menuBlock.classList.remove("hidden");
+        //menuBlock.classList.add("flex-col", "flex");
+      } else {
+        menuBlock?.classList.add("hidden");
+      }
+    });
   });
 </script>
 
