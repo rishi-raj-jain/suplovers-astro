@@ -9,7 +9,12 @@ const lang = getLangFromUrl(Astro.url);
 <div class="mb-5 px-4 w-full md:w-1/2 xl:w-1/4">
   <div class="bg-soft_yellow-500 p-3">
     <div>
-      <Image src={tour.data.card.image.src} alt="tour" />
+      <Image
+        src={tour.data.card.image.src}
+        alt="tour"
+        widths={[240, 540, 720, tour.data.card.image.width]}
+        sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${tour.data.card.image.width}px`}
+      />
     </div>
     <div class="bg-background_cyan-500 p-5">
       <h3 class="font-paragraphs font-extrabold text-2xl text-white uppercase">
