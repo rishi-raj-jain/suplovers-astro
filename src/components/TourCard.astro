@@ -12,8 +12,11 @@ const lang = getLangFromUrl(Astro.url);
       <Image
         src={tour.data.card.image.src}
         alt="tour"
-        widths={[240, 540, 720, tour.data.card.image.width]}
-        sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${tour.data.card.image.width}px`}
+        widths={[240, 540, 720, Number(tour.data.card.image.src.width)]}
+        sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${Number(
+          tour.data.card.image.src.width
+        )}px`}
+        class="object-cover w-full"
       />
     </div>
     <div class="bg-background_cyan-500 p-5">
