@@ -1,6 +1,9 @@
 ---
-const { data, bgColor } = Astro.props;
-
+const { bgColor } = Astro.props;
+const data = {
+  button_text: "WhatsApp",
+  button_link: "/",
+};
 const style = `${bgColor} font-medium font-paragraphs inline-flex items-center mt-5 px-4 py-4 rounded self-start text-white text-xl`;
 ---
 
