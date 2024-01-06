@@ -4,7 +4,7 @@ const { data, bgColor } = Astro.props;
 const style = `${bgColor} font-medium font-paragraphs inline-flex items-center mt-5 px-4 py-4 rounded self-start text-white text-xl`;
 ---
 
-<button class={style}>
+<a href="/" class={style}>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
@@ -22,4 +22,4 @@ const style = `${bgColor} font-medium font-paragraphs inline-flex items-center m
     </g>
   </svg>
   {data.button_text}
-</button>
+</a>
