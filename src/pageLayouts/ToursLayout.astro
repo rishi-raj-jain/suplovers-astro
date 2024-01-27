@@ -3,6 +3,14 @@ import Layout from "../layouts/Layout.astro";
 import TourCard from "../components/TourCard.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
 const { tours } = Astro.props;
+console.log(tours);
+
+let order = ['es/muelle-viejo', 'punta de piedra', 'la caimanera', 'playa blanca coveñas', 'Cispata', 'balsa chiqui', 'lorica san bernardo'];
+
+tours.sort((a, b) => {
+    return order.indexOf(a.title) - order.indexOf(b.title);
+});
+
 ---
 
 <Layout>

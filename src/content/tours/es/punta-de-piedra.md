@@ -1,4 +1,5 @@
 ---
+priority: 2
 card:
   title: RUTA PUNTA DE PIEDRA
   paragraph: >

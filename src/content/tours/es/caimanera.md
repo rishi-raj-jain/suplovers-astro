@@ -1,4 +1,5 @@
 ---
+priority: 3
 card:
   title: RUTA CAIMANERA
   paragraph: >

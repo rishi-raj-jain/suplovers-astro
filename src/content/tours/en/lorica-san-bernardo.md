@@ -1,4 +1,5 @@
 ---
+priority: 7
 card:
   title: RUTA LORICA SAN BERNARDO
   paragraph: >

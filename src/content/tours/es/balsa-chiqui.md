@@ -1,4 +1,5 @@
 ---
+priority: 6
 card:
   title: RUTA BALSA CHIQUI
   paragraph: >

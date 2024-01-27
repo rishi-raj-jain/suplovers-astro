@@ -1,4 +1,5 @@
 ---
+priority: 5
 card:
   title: RUTA CISPATA
   paragraph: >

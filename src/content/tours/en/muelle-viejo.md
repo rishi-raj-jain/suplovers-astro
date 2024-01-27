@@ -1,4 +1,5 @@
 ---
+priority: 1
 card:
   title: MUELLE VIEJO ROUTE
   paragraph: >

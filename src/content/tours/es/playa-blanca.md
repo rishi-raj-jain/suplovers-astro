@@ -1,4 +1,5 @@
 ---
+priority: 4
 card:
   title: RUTA PLAYA BLANCA COVEÑAS
   paragraph: >
