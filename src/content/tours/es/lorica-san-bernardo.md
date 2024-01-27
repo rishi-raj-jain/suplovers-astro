@@ -3,7 +3,7 @@ priority: 7
 card:
   title: RUTA LORICA SAN BERNARDO
   paragraph: >
-    Rally sobre el río Sinú de 30 kilómetros, con una duración aproximada de cuatro horas. Incluye todos los transportes desde Lórica hasta San Bernardo del Viento y regreso a Coveñas.
+    Rally sobre el río Sinú de 30 kilómetros, donde prodrás apreciar su diversidad. Con una duración aproximada de cuatro horas. Incluye todos los transportes desde Lórica hasta San Bernardo del Viento y regreso a Coveñas.
   button_text: Leer más...
   button_link: /tours/lorica-san-bernardo
   image:
@@ -19,7 +19,7 @@ section_1:
 section_2:
   title: Lorica
   description: >
-    Descubre la Ruta Lorica, un recorrido por todo el manglar del ecosistema de la desembocadura del río Sinú. Un tour de tres horas que parte desde Coveñas, se transporta por tierra hasta las playas de San Antero y recorre unos 8 kilómetros, explorando los manglares y algunas áreas de la bahía. Luego, toma el caño Lobo para regresar a las playas de San Antero. Este tour tiene un valor de 220,000 pesos.
+    Descubre la Ruta Lorica, un recorrido por todo el manglar del ecosistema de la desembocadura del río Sinú. Un tour de tres horas que parte desde Coveñas, se transporta por tierra hasta las playas de San Antero y recorre unos 8 kilómetros, explorando los manglares y algunas áreas de la bahía, apreciando su diversidad. Luego, toma el caño Lobo para regresar a las playas de San Antero. Este tour tiene un valor de 220,000 pesos.
   cost: 330.000 pesos
 
   highlights:
