@@ -38,7 +38,7 @@ section_3:
   title: Included Services
   inclusions:
     - Safety equipment
-    - Refreshments
+    - Guide
     - Hydration
     - Possibility of raccoon sightings (if luck permits)
 ---

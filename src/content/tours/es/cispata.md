@@ -38,6 +38,6 @@ section_3:
   title: Servicios incluidos
   inclusions:
     - Equipo de seguridad
-    - Refrigerios
+    - Guía
     - Hidratación
 ---

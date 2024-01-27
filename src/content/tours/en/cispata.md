@@ -38,6 +38,6 @@ section_3:
   title: Included Services
   inclusions:
     - Safety equipment
-    - Refreshments
+    - Guide
     - Hydration
 ---

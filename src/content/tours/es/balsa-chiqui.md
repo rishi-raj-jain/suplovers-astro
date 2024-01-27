@@ -39,7 +39,7 @@ section_3:
   title: Servicios incluidos
   inclusions:
     - Equipo de seguridad
-    - Refrigerios
+    - Guía
     - Hidratación
     - Transporte desde Coveñas hasta San Bernardo del Viento
 ---

@@ -38,7 +38,7 @@ section_3:
   title: Servicios incluidos
   inclusions:
     - Equipo de seguridad
-    - Refrigerios
+    - Guía
     - Hidratación
     - Posibilidad de avistamiento de mapaches (si la suerte lo permite)
 ---
