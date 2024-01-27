@@ -32,13 +32,13 @@ section_2:
     src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15867.009911374053!2d-75.61020612716673!3d6.163894277135764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683cb1d5771e9%3A0x4fda2fc926473c68!2sPolideportivo%20Sur%20de%20Envigado!5e0!3m2!1sen!2sco
   stats:
     distance: 11 km
-    duration: 2 hours
+    duration: 2.5 hours
     difficulty: Intermediate
 
 section_3:
   title: Included Services
   inclusions:
     - Safety equipment
-    - Guide
+    - Guides
     - Hydration
 ---
