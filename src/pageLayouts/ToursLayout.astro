@@ -2,25 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 import TourCard from "../components/TourCard.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
-const { tours } = Astro.props;
-console.log(tours);
-
-let order = ['es/muelle-viejo', 'punta de piedra', 'la caimanera', 'playa blanca coveñas', 'Cispata', 'balsa chiqui', 'lorica san bernardo'];
-
-tours.sort((a, b) => {
-    return order.indexOf(a.title) - order.indexOf(b.title);
-});
-
+let { tours, indexTitle } = Astro.props;
+// Assuming each tour object has a 'priority' property
+tours = tours.sort((a, b) => a.data.priority - b.data.priority);
 ---
 
 <Layout>
   <main class="bg-dark_cyan-500 pb-10 pt-5">
     <div class="py-10 text-center">
-      <h2
+      <h1
         class="border-dashed border-yellow-500 font-titles inline-block leading-normal ml-4 text-2xl text-yellow-500 tracking-wide uppercase sm:text-4xl"
       >
-        nuestros tours
-      </h2>
+        {indexTitle}
+      </h1>
     </div>
     <section>
       <div class="container mx-auto px-4 lg:w-11/12">

@@ -4,4 +4,4 @@ import { getCollection } from "astro:content";
 const tours = await getCollection("tours", ({ id }) => id.startsWith("es/"));
 ---
 
-<TourLayout tours={tours} />
+<TourLayout tours={tours} indexTitle="Nuestros Tours"/>
