@@ -58,6 +58,7 @@ const tours = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      priority: z.number(),
       card: z.object({
         title: z.string(),
         paragraph: z.string(),
