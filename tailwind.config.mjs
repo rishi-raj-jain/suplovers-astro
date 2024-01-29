@@ -5,8 +5,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],
-        titles: ["THICCCBOI", "sans-serif"],
-        brand: ["THICCCBOI", "sans-serif"],
+        titles: ["Made Soulmaze", "sans-serif"],
+        brand: ["MADE Soulmaze", "sans-serif"],
         paragraphs: ["Montserrat", "sans-serif"],
       },
 
