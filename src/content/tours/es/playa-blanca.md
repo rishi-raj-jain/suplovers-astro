@@ -7,14 +7,14 @@ card:
   button_text: Leer más...
   button_link: /tours/playa-blanca
   image:
-    src: /src/assets/playa-blanca-covenas.jpg
+    src: /src/assets/playablanca.jpg
     alt: Descenso en Playa Blanca Coveñas
 
 section_1:
   title: Playa Blanca Coveñas
   description: Descubre la belleza costera en el Descenso de Ruta Playa Blanca Coveñas
   button_text: WhatsApp
-  image: /src/assets/playa-blanca-covenas.jpg
+  image: /src/assets/playablanca.jpg
 
 section_2:
   title: Playa Blanca Coveñas

@@ -7,14 +7,14 @@ card:
   button_text: Read more...
   button_link: /tours/playa-blanca
   image:
-    src: /src/assets/playa-blanca-covenas.jpg
+    src: /src/assets/playablanca.jpg
     alt: Downwind in Playa Blanca Coveñas
 
 section_1:
   title: Playa Blanca Coveñas
   description: Discover the coastal beauty on the Downwind Route Playa Blanca Coveñas
   button_text: WhatsApp
-  image: /src/assets/playa-blanca-covenas.jpg
+  image: /src/assets/playablanca.jpg
 
 section_2:
   title: Playa Blanca Coveñas
