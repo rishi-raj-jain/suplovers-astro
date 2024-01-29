@@ -33,8 +33,7 @@ section_2:
   stats:
     distance: 7 km
     duration: 3 horas aprox 
-    cost: 320,000 pesos
-    difficulty: Medio
+    difficulty: Intermedio
 
 section_3:
   title: Servicios incluidos

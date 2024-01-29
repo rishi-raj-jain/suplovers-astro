@@ -34,7 +34,7 @@ section_2:
   stats:
     distance: 30 km aprox
     duration: 4 horas
-    difficulty: avanzado
+    difficulty: Avanzado
 
 section_3:
   title: Servicios incluidos

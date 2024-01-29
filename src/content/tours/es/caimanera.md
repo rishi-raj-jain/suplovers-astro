@@ -33,7 +33,7 @@ section_2:
   stats:
     distance: 6 km
     duration: 2 horas
-    difficulty: Media
+    difficulty: Intermedio
 
 section_3:
   title: Servicios incluidos
