@@ -7,6 +7,7 @@ export default {
         sans: ["Montserrat", "sans-serif"],
         titles: ["Made Soulmaze", "sans-serif"],
         brand: ["MADE Soulmaze", "sans-serif"],
+        italic: ["MADE Soulmaze Italic", "sans-serif"],
         paragraphs: ["Montserrat", "sans-serif"],
       },
 
