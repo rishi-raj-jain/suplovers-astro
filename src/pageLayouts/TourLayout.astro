@@ -9,19 +9,19 @@ const { data } = Astro.props;
 <Layout>
   <section class="bg-gray-800 relative text-white">
     <div
-      class="bg-dark_cyan-500 container mx-auto px-4 py-10 relative md:bg-transparent md:py-32 md:z-50"
+      class="bg-dark_cyan-500  container mx-auto px-4 py-10 relative md:bg-transparent md:py-32 md:z-50"
     >
-      <div class="flex flex-wrap -mx-4">
+      <div class="flex flex-wrap -mx-4 ">
         <div class="mx-auto px-4 text-center w-full lg:w-8/12">
-          <p class="font-medium font-paragraphs mb-2 text-yellow-500 uppercase">
+          <p class="font-bold font-paragraphs mb-2 text-white uppercase">
             TOUR
           </p>
           <h1
-            class="drop-shadow-xl font-extrabold font-titles mb-4 text-6xl uppercase"
+            class=" drop-shadow-xl font-extrabold font-titles mb-4 text-6xl uppercase"
           >
             {data.section_1.title}
           </h1>
-          <p class="font-light font-paragraphs mb-6 text-xl">
+          <p class="font-light font-paragraphs mb-6 text-2xl drop-shadow-lg">
             {data.section_1.description}
           </p>
         </div>
