@@ -2,20 +2,37 @@
 import { ViewTransitions } from "astro:transitions";
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
+
+// fonts // Supports weights 100-900
+import '@fontsource-variable/montserrat';
+// Supports weights 100-900
+import '@fontsource-variable/outfit';
+// Supports weights 100-900
+import '@fontsource-variable/raleway';
 ---
 
 <style is:global>
   @font-face {
+    font-family: 'MADE Soulmaze';
+    src: url('/fonts/DistantGalaxy.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
     font-family: "THICCCBOI";
     src: url("/fonts/THICCCBOI-ThicccAF.woff2") format("woff2");
     font-weight: bold;
   }
-
   @font-face {
     font-family: "Montserrat-VariableFont";
     src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("woff2");
   }
+
+
 </style>
+
 
 <html lang="es">
   <head>

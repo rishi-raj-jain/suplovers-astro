@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],
         titles: ["THICCCBOI", "sans-serif"],
+        brand: ["THICCCBOI", "sans-serif"],
         paragraphs: ["Montserrat", "sans-serif"],
       },
 
