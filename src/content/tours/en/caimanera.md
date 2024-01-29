@@ -7,14 +7,14 @@ card:
   button_text: Read more...
   button_link: /tours/caimanera
   image:
-    src: /src/assets/caimanera.jpeg
+    src: /src/assets/tour-2.jpeg
     alt: Kayaking Tour in Caimanera
 
 section_1:
   title: Caimanera
   description: Explore the natural beauty on the Caimanera Route Tour
   button_text: WhatsApp
-  image: /src/assets/caimanera.jpeg
+  image: /src/assets/tour-2.jpeg
 
 section_2:
   title: Caimanera
