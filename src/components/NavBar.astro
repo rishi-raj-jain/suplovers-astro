@@ -6,7 +6,7 @@ import {
   navLinks,
 } from "../i18n/utils";
 import { Image } from "astro:assets";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo_big.png";
 import SocialMediaNav from "./SocialMediaNav.astro";
 import NavLink from "./NavLink.astro";
 import LanguagePicker from "./LanguagePicker.astro";
@@ -78,8 +78,10 @@ const navData = navLinks(t, path);
     >
       <a
         href="/"
-        class=" focus:text-yellow-500 lg:me-0 font-brand hover:text-yellow-500 text-2xl text-white uppercase"
-        ><Image src={logo} alt="suplovers logo" width="80">  </a>
+        class="focus:text-yellow-500 opacity-0 lg:me-0 font-brand hover:text-yellow-500 text-2xl text-white uppercase"
+        >
+          SUPLOVERS.
+        </a>
       <LanguagePicker />
       <button
         class="ham_button border border-solid border-yellow-500 hover:text-yellow-500 px-3 py-2 text-soft_yellow-500 lg:hidden"
