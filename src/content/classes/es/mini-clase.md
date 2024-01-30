@@ -1,5 +1,5 @@
 ---
-heading: Mini-Clase
+heading: Mini-Class
 subheading: Pequeña Iniciación al Paddleboarding
 description: > 
     Clase introductoria con alrededor de 10 minutos de teoría y 50 minutos de práctica. Cubre las bases de posición, remado, entrada y salida del agua, con un enfoque en actividades prácticas.
