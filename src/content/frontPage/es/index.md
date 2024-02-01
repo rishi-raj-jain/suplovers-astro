@@ -5,7 +5,7 @@ hero:
   image: /src/assets/hero.jpg
 
 tours:
-  heading: EXPLORA NUESTROS TOURS
+  heading: Explora Nuestros Tours
   button_text: WhatsApp
   button_link: link to juancho
 
