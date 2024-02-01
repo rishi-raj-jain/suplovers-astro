@@ -7,21 +7,21 @@ const { data } = Astro.props;
 ---
 
 <Layout>
-  <section class="bg-gray-800 relative text-white">
+  <section class="relative bg-gray-800 text-white">
     <div
-      class="bg-dark_cyan-500  container mx-auto px-4 py-10 relative md:bg-transparent md:py-32 md:z-50"
+      class="container relative mx-auto bg-dark_cyan-500 px-4 py-10 md:z-50 md:bg-transparent md:py-32"
     >
-      <div class="flex flex-wrap -mx-4 ">
-        <div class="mx-auto px-4 text-center w-full lg:w-8/12">
-          <p class="font-bold font-paragraphs mb-2 text-white uppercase">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="mx-auto w-full px-4 text-center lg:w-8/12">
+          <p class="mb-2 font-paragraphs font-bold uppercase text-white">
             TOUR
           </p>
           <h1
-            class="drop-shadow-2xl font-extrabold font-titles mb-4 text-6xl uppercase"
+            class="mb-4 font-titles text-6xl font-extrabold capitalize drop-shadow-2xl"
           >
             {data.section_1.title}
           </h1>
-          <p class="font-light font-paragraphs mb-6 text-2xl drop-shadow-lg">
+          <p class="mb-6 font-paragraphs text-2xl font-light drop-shadow-lg">
             {data.section_1.description}
           </p>
         </div>
@@ -34,34 +34,34 @@ const { data } = Astro.props;
     </div>
     <Image
       src={data.section_1.image}
-      class="h-full inset-0 object-cover relative w-full md:absolute md:z-0"
+      class="relative inset-0 h-full w-full object-cover md:absolute md:z-0"
       alt="tour image"
       widths={[240, 540, 720, Number(data.section_1.image.width)]}
       sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) ${Number(
-        data.section_1.image.width
+        data.section_1.image.width,
       )}px`}
     />
   </section>
 
   <!-- section 2 -->
 
-  <section class="bg-beige-500 mx-auto p-8 md:py-20">
-    <div class="flex flex-col mx-auto md:flex-row lg:w-10/12">
-      <div class="md:p-10 md:w-1/2">
+  <section class="mx-auto bg-beige-500 p-8 md:py-20">
+    <div class="mx-auto flex flex-col md:flex-row lg:w-10/12">
+      <div class="md:w-1/2 md:p-10">
         <h3
-          class="drop-shadow-xl font-extrabold font-titles mb-4 text-3xl text-center uppercase md:text-left"
+          class="mb-4 text-center font-titles text-3xl font-extrabold uppercase drop-shadow-xl md:text-left"
         >
           {data.section_2.title}
         </h3>
         <p
-          class="font-paragraphs text-center text-background_cyan-500 text-lg md:text-left"
+          class="text-center font-paragraphs text-lg text-background_cyan-500 md:text-left"
         >
           {data.section_2.description}
         </p>
-        <div class="flex flex-col items-center mt-4 md:flex-row">
-          <h4 class="font-titles font-bold uppercase text-lg me-2">costo:</h4>
+        <div class="mt-4 flex flex-col items-center md:flex-row">
+          <h4 class="me-2 font-titles text-lg font-bold uppercase">costo:</h4>
           <p
-            class="font-paragraphs text-background_cyan-500 tracking-wider uppercase font-bold"
+            class="font-paragraphs font-bold uppercase tracking-wider text-background_cyan-500"
           >
             {data.section_2.cost}
           </p>
@@ -71,14 +71,14 @@ const { data } = Astro.props;
           <div class="mb-4">
             <p class="mb-2 text-center md:text-left">
               <strong
-                class="font-titles text-background_cyan-500 tracking-wider uppercase"
+                class="font-titles uppercase tracking-wider text-background_cyan-500"
                 >{data.section_2.highlights.title}</strong
               >
             </p>
-            <ul class="mx-auto text-center w-2/3 md:mx-0 md:text-left">
+            <ul class="mx-auto w-2/3 text-center md:mx-0 md:text-left">
               {
                 data.section_2.highlights.list.map((item) => (
-                  <li class="border-b border-background_cyan-500 border-solid font-paragraphs font-semibold p-2 text-background_cyan-500">
+                  <li class="border-b border-solid border-background_cyan-500 p-2 font-paragraphs font-semibold text-background_cyan-500">
                     {item}
                   </li>
                 ))
@@ -91,7 +91,7 @@ const { data } = Astro.props;
         </div>
       </div>
       <div
-        class="flex flex-col overflow-hidden relative md:rounded-lg md:shadow-lg md:shadow-soft_yellow-500 md:w-1/2"
+        class="relative flex flex-col overflow-hidden md:w-1/2 md:rounded-lg md:shadow-lg md:shadow-soft_yellow-500"
       >
         <iframe
           src={data.section_2.map.src}
@@ -102,37 +102,37 @@ const { data } = Astro.props;
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="h-full w-full"></iframe>
-        <div class=" bg-soft_yellow-500 flex relative w-full">
+        <div class="relative flex w-full bg-soft_yellow-500">
           <ul
-            class="flex font-bold font-paragraphs justify-around text-center uppercase w-full"
+            class="flex w-full justify-around text-center font-paragraphs font-bold uppercase"
           >
             <li
-              class="border-background_cyan-500 border-opacity-50 border-r border-solid h-full p-4 w-full"
+              class="h-full w-full border-r border-solid border-background_cyan-500 border-opacity-50 p-4"
             >
               {data.section_2.stats.distance}
             </li>
             <li
-              class="border-background_cyan-500 border-opacity-50 border-r border-solid h-full p-4 w-full"
+              class="h-full w-full border-r border-solid border-background_cyan-500 border-opacity-50 p-4"
             >
               {data.section_2.stats.duration}
             </li>
-            <li class="h-full p-4 w-full">{data.section_2.stats.difficulty}</li>
+            <li class="h-full w-full p-4">{data.section_2.stats.difficulty}</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="mb-4 py-10">
       <p
-        class="font-bold mb-5 text-background_cyan-500 text-center uppercase md:text-center"
+        class="mb-5 text-center font-bold uppercase text-background_cyan-500 md:text-center"
       >
         {data.section_3.title}
       </p>
       <ul
-        class="mx-auto text-center md:flex md:flex-wrap md:justify-around md:w-2/3"
+        class="mx-auto text-center md:flex md:w-2/3 md:flex-wrap md:justify-around"
       >
         {
           data.section_3.inclusions.map((item) => (
-            <li class="bg-dark_cyan-500 border-beige-500 border-r border-solid p-2 text-white md:flex-grow">
+            <li class="border-r border-solid border-beige-500 bg-dark_cyan-500 p-2 text-white md:flex-grow">
               {item}
             </li>
           ))
