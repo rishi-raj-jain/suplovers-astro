@@ -4,48 +4,46 @@ import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
 
 // fonts // Supports weights 100-900
-import '@fontsource-variable/montserrat';
+import "@fontsource-variable/montserrat";
 // Supports weights 100-900
-import '@fontsource-variable/outfit';
+import "@fontsource-variable/outfit";
 // Supports weights 100-900
-import '@fontsource-variable/raleway';
+import "@fontsource-variable/raleway";
 ---
 
 <style is:global>
   @font-face {
-    font-family: 'MADE Soulmaze Italic';
-    src: url('/fonts/MADESoulmaze-Italic.woff') format('woff');
+    font-family: "MADE Soulmaze Italic";
+    src: url("/fonts/MADESoulmaze-Italic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
-}
-@font-face {
-    font-family: 'MADE Soulmaze';
-    src: url('/fonts/MADESoulmaze.woff') format('woff');
+  }
+  @font-face {
+    font-family: "MADE Soulmaze";
+    src: url("/fonts/MADESoulmaze.woff") format("woff");
     font-weight: bold;
     font-style: italic;
-}
+  }
 
   @font-face {
-    font-family: 'EQALI';
-    src: url('/fonts/EQUALI.woff2') format('woff2');
+    font-family: "EQALI";
+    src: url("/fonts/EQUALI.woff2") format("woff2");
     font-weight: bold;
-    
-}
+  }
 
-
-@font-face {
+  @font-face {
     font-family: "THICCCBOI";
     src: url("/fonts/THICCCBOI-ThicccAF.woff2") format("woff2");
     font-weight: bold;
   }
 
-@font-face {
+  @font-face {
     font-family: "HURDEY";
     src: url("/fonts/HURDEIRegular.woff2") format("woff2");
     font-weight: bold;
   }
 
-@font-face {
+  @font-face {
     font-family: "THICCCBOI Medium";
     src: url("/fonts/THICCCBOI-Medium.woff2") format("woff2");
     font-weight: bold;
@@ -69,9 +67,13 @@ import '@fontsource-variable/raleway';
     @apply tracking-wider;
   }
 
-
+  .text-shadow {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+  }
+  .text-shadow-small {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.721);
+  }
 </style>
-
 
 <html lang="es">
   <head>

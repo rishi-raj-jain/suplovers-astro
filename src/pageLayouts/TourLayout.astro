@@ -13,15 +13,19 @@ const { data } = Astro.props;
     >
       <div class="-mx-4 flex flex-wrap">
         <div class="mx-auto w-full px-4 text-center lg:w-8/12">
-          <p class="mb-2 font-paragraphs font-bold uppercase text-white">
+          <p
+            class="text-shadow-small mb-2 font-paragraphs font-bold uppercase text-white"
+          >
             TOUR
           </p>
           <h1
-            class="mb-4 font-titles text-6xl font-extrabold capitalize drop-shadow-2xl"
+            class="text-shadow mb-4 font-titles text-6xl font-extrabold capitalize"
           >
             {data.section_1.title}
           </h1>
-          <p class="mb-6 font-paragraphs text-2xl font-light drop-shadow-lg">
+          <p
+            class="text-shadow-small mb-6 font-paragraphs text-2xl font-light drop-shadow-lg"
+          >
             {data.section_1.description}
           </p>
         </div>
@@ -49,7 +53,7 @@ const { data } = Astro.props;
     <div class="mx-auto flex flex-col md:flex-row lg:w-10/12">
       <div class="md:w-1/2 md:p-10">
         <h3
-          class="mb-4 text-center font-titles text-3xl font-extrabold uppercase drop-shadow-xl md:text-left"
+          class="mb-4 text-center font-titles text-4xl font-extrabold capitalize drop-shadow-xl md:text-left"
         >
           {data.section_2.title}
         </h3>
@@ -59,7 +63,11 @@ const { data } = Astro.props;
           {data.section_2.description}
         </p>
         <div class="mt-4 flex flex-col items-center md:flex-row">
-          <h4 class="me-2 font-titles text-lg font-bold uppercase">costo:</h4>
+          <h4
+            class="me-2 font-titles text-2xl capitalize text-background_cyan-500"
+          >
+            costo:
+          </h4>
           <p
             class="font-paragraphs font-bold uppercase tracking-wider text-background_cyan-500"
           >
@@ -69,12 +77,12 @@ const { data } = Astro.props;
         <div class="mt-10"></div>
         <div class="mt-5">
           <div class="mb-4">
-            <p class="mb-2 text-center md:text-left">
-              <strong
-                class="font-titles uppercase tracking-wider text-background_cyan-500"
-                >{data.section_2.highlights.title}</strong
-              >
+            <p
+              class="mb-2 text-center font-titles text-2xl capitalize text-background_cyan-500 md:text-left"
+            >
+              {data.section_2.highlights.title}
             </p>
+
             <ul class="mx-auto w-2/3 text-center md:mx-0 md:text-left">
               {
                 data.section_2.highlights.list.map((item) => (
@@ -116,7 +124,9 @@ const { data } = Astro.props;
             >
               {data.section_2.stats.duration}
             </li>
-            <li class="h-full w-full p-4">{data.section_2.stats.difficulty}</li>
+            <li class="h-full w-full p-4">
+              {data.section_2.stats.difficulty}
+            </li>
           </ul>
         </div>
       </div>

@@ -1,6 +1,6 @@
 ---
 about_us:
-    heading: ABOUT US
+    heading: About Us
     subheading:
         main: Welcome to 
         span: SUPLOVERS.CO
@@ -13,7 +13,7 @@ about_us:
         alt: group paddleboarding
 
 philosophy:
-    heading: OUR PHILOSOPHY
+    heading: Our Philosophy
     subheading:
         main: The values that represent 
         span: SUPLOVERS.CO
@@ -26,7 +26,7 @@ philosophy:
         alt: group paddleboarding
 
 join_us:
-    heading: JOIN THE COMMUNITY
+    heading: Join The Community
     description: >
         Whether you're looking to learn paddleboarding, improve your skills, or simply enjoy nature on our exciting tours, at SUPLOVERS.CO, we invite you to join our community. We hope to see you on the water soon!
     button_text: WhatsApp
