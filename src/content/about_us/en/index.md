@@ -2,10 +2,10 @@
 about_us:
     heading: About Us
     subheading:
-        main: Welcome to 
+        main: Welcome to
         span: SUPLOVERS.CO
     description: >
-        At SUPLOVERS.CO, we are not just paddleboarding enthusiasts; we are a dedicated community that shares a passion for connecting people with nature through this thrilling water sport. Our mission is to provide unforgettable experiences, promoting safety, technical teaching, and respect for the natural environment.
+        At SUPLOVERS.CO, we are not only paddleboarding enthusiasts, we are a dedicated community that shares a passion for connecting people with nature through this exciting water sport. Our mission is to provide unforgettable experiences, promoting safety, technical instruction and respect for the natural environment.
     button_text: WhatsApp
     button_link: Link here
     image:
@@ -15,10 +15,10 @@ about_us:
 philosophy:
     heading: Our Philosophy
     subheading:
-        main: The values that represent 
+        main: The values that represent
         span: SUPLOVERS.CO
     description: >
-        We are committed to strengthening the connection between people and nature through paddleboarding. We believe that this experience is not just a sport but an opportunity to immerse oneself in the beauty of our aquatic environments and learn to enjoy them consciously.
+        We are dedicated to strengthening the connection between people and nature through paddleboarding. We believe that this experience is not only a sport, but an opportunity to immerse yourself in the beauty of our aquatic environments and learn to enjoy them in a conscious way.       
     button_text: WhatsApp
     button_link: Link here
     image:
@@ -26,9 +26,9 @@ philosophy:
         alt: group paddleboarding
 
 join_us:
-    heading: Join The Community
+    heading: Join the Community
     description: >
-        Whether you're looking to learn paddleboarding, improve your skills, or simply enjoy nature on our exciting tours, at SUPLOVERS.CO, we invite you to join our community. We hope to see you on the water soon!
+        Whether you're looking to learn paddleboarding, enhance your skills, or simply enjoy nature on our exciting tours, at SUPLOVERS.CO, we invite you to join our community. We look forward to seeing you on the water soon!
     button_text: WhatsApp
     button_link: Link here
 ---
