@@ -74,7 +74,7 @@ const path = useTranslationsForRoutes(lang);
           {data.classes.paragraph}
         </p>
         <a
-          href={data.classes.button_link}
+          href={getRelativeLocaleUrl(lang, data.classes.button_link)}
           class="mt-6 flex-shrink-0 self-start rounded-lg bg-lime_green-600 px-4 py-2 font-paragraphs font-medium text-white"
           >{data.classes.button_text}
         </a>
