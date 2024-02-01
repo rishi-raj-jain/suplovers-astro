@@ -11,14 +11,14 @@ tours = tours.sort((a, b) => a.data.priority - b.data.priority);
   <main class="bg-dark_cyan-500 pb-10 pt-5">
     <div class="py-10 text-center">
       <h1
-        class="border-dashed border-yellow-500 font-titles inline-block leading-normal ml-4 text-2xl text-yellow-500 tracking-wide uppercase sm:text-4xl"
+        class="ml-4 inline-block border-dashed border-yellow-500 font-titles text-2xl capitalize leading-normal tracking-wide text-yellow-500 sm:text-5xl"
       >
         {indexTitle}
       </h1>
     </div>
     <section>
       <div class="container mx-auto px-4 lg:w-11/12">
-        <div class="flex flex-wrap -mx-4">
+        <div class="-mx-4 flex flex-wrap">
           {tours.map((tour) => <TourCard tour={tour} />)}
         </div>
       </div>
