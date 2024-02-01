@@ -19,8 +19,8 @@ club_five_days:
   title: 5-Day Club
   duration: One Hour per Day
   cost: 200,000 pesos
-whatsapp_button: "WhatsApp"
-whatsapp_link: linkhere
+whatsapp_button: WhatsApp
+whatsapp_link: link here
 image: 
   src: /src/assets/boards-1.jpg
   alt: paddle boards
