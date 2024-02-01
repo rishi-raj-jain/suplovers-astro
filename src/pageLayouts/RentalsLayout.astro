@@ -13,27 +13,27 @@ const { data } = Astro.props;
       <div class="container mx-auto px-4 lg:w-11/12 xl:w-10/12">
         <div class="-mx-4 flex flex-wrap">
           <div
-            class="flex flex-col justify-center p-4 text-lg w-full lg:order-1 lg:w-5/12"
+            class="flex w-full flex-col justify-center p-4 text-lg lg:order-1 lg:w-5/12"
           >
             <div>
               <h1
-                class="font-titles mb-4 text-5xl text-dark_cyan-500 tracking-wide uppercase"
+                class="mb-4 font-titles text-7xl capitalize tracking-wide text-dark_cyan-500"
               >
                 {data.heading}
               </h1>
               <h2
-                class="capitalize font-bold font-paragraphs text-dark_cyan-500 text-xl"
+                class="font-paragraphs text-xl font-bold capitalize text-dark_cyan-500"
               >
                 {data.subheading}:&nbsp;
               </h2>
               <p
-                class="border-b border-lime_green-500 border-opacity-40 border-solid font-medium inline-block text-lime_green-600"
+                class="inline-block border-b border-solid border-lime_green-500 border-opacity-40 font-medium text-lime_green-600"
               >
                 {data.equipment}
               </p>
             </div>
             <h3
-              class="capitalize font-bold font-paragraphs mt-5 text-dark_cyan-500 text-lg"
+              class="mt-5 font-paragraphs text-lg font-bold capitalize text-dark_cyan-500"
             >
               {data.rental_modalities.title}
             </h3>
@@ -50,7 +50,7 @@ const { data } = Astro.props;
               }
             </ul>
             <h3
-              class="capitalize font-bold font-paragraphs mt-5 text-dark_cyan-500 text-lg"
+              class="mt-5 font-paragraphs text-lg font-bold capitalize text-dark_cyan-500"
             >
               {data.club_three_days.title}:
             </h3>
@@ -59,7 +59,7 @@ const { data } = Astro.props;
             </p>
 
             <h3
-              class="capitalize font-bold font-paragraphs mt-5 text-dark_cyan-500 text-lg"
+              class="mt-5 font-paragraphs text-lg font-bold capitalize text-dark_cyan-500"
             >
               {data.club_five_days.title}:
             </h3>
@@ -70,14 +70,14 @@ const { data } = Astro.props;
               <ButtonWhatsApp bgColor="bg-lime_green-600" />
             </div>
           </div>
-          <div class="p-4 w-full lg:ml-auto lg:order-2 lg:w-6/12">
+          <div class="w-full p-4 lg:order-2 lg:ml-auto lg:w-6/12">
             <div
-              class="-mx-4 flex h-full items-center justify-center overflow-hidden p-2 rounded-lg shadow-beige-700 shadow-lg"
+              class="-mx-4 flex h-full items-center justify-center overflow-hidden rounded-lg p-2 shadow-lg shadow-beige-700"
             >
               <Image
                 src={data.image.src}
                 alt={data.image.alt}
-                class="h-full object-cover rounded-lg w-full"
+                class="h-full w-full rounded-lg object-cover"
               />
             </div>
           </div>
