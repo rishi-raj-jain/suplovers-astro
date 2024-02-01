@@ -16,7 +16,7 @@ club_three_days:
   duration: Una Hora por Día
   cost: 120,000 pesos
 club_five_days:
-  title: Club de 3 días
+  title: Club de 5 días
   duration: Una Hora por Día
   cost: 200,000 pesos
 whatsapp_button: "WhatsApp"
