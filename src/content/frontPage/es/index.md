@@ -40,7 +40,7 @@ rentals:
       button_text: leer mas...
       button_link: /alquileres
       image: /src/assets/boards-2.jpg
-    - duration: 2 hora
+    - duration: 2 horas
       cost: $80.000
       button_text: leer mas...
       button_link: /alquileres
