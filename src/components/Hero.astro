@@ -2,24 +2,21 @@
 import { Image } from "astro:assets";
 import heroImage from "../assets/hero.jpg";
 const { data } = Astro.props;
-import logo from "../assets/logo_big.png";
 ---
 
 <section class="hero">
   <div>
-    <!-- <h1
+    <h1
       class="font-brand bg-clip-text bg-gradient-to-b from-dark_cyan-500 relative text-5xl text-center to-transparent z-10 sm:text-7xl md:text-8xl lg:text-9xl"
     >
       {data.heading}
-    </h1> -->
-    <!-- <p
+    </h1>
+    <p
       class="font-brandSub blur-none drop-shadow-xl relative text-3xl text-white text-center tracking-wide uppercase z-50"
     >
       {data.subheading}
-    </p> -->
-    <div class="z-50 relative bg-dark_cyan-500 w-fit ms-10">
-      <Image src={logo} alt="suplovers logo" width="220" height="220">  
-    </div>
+    </p>
+    
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="height: 0;">
     <defs>
@@ -60,7 +57,7 @@ import logo from "../assets/logo_big.png";
     height: 80vh;
   } 
 
-  /*.hero div {
+  .hero div {
     position: absolute;
     z-index: 100;
     width: 100%;
@@ -71,10 +68,10 @@ import logo from "../assets/logo_big.png";
 
    
     transform: translate(-50%, -50%);
-  }*/
+  }
 
-/*   .hero h1 {
+  .hero h1 {
     color: transparent;
     filter: url(#outline-shadow);
-  } */
+  }
 </style>
