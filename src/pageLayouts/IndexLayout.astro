@@ -17,11 +17,11 @@ const path = useTranslationsForRoutes(lang);
   <Hero data={data.hero} />
 
   <!-- tours section -->
-  <section class="bg-background_cyan-500 py-20 tours-section">
+  <section class="tours-section bg-background_cyan-500 py-20">
     <div class="container mx-auto w-11/12">
       <div class="pb-6 pt-12">
         <h2
-          class="border-b border-dashed border-yellow-500 font-titles inline-block leading-normal ml-4 text-2xl text-yellow-500 tracking-wide uppercase sm:text-4xl"
+          class="ml-4 inline-block border-b border-dashed border-yellow-500 font-titles text-2xl uppercase leading-normal text-yellow-500 sm:text-4xl"
         >
           {data.tours.heading}
         </h2>
@@ -30,16 +30,16 @@ const path = useTranslationsForRoutes(lang);
         </div>
       </div>
       <div class="mx-auto px-4">
-        <div class="flex flex-wrap -mx-4">
+        <div class="-mx-4 flex flex-wrap">
           {tours.map((tour) => <TourCard tour={tour} />)}
 
-          <div class="mb-5 px-4 w-full md:w-1/2 xl:w-1/4">
+          <div class="mb-5 w-full px-4 md:w-1/2 xl:w-1/4">
             <div
-              class="bg-dark_cyan-600 flex flex-col h-full items-center justify-center px-3 py-10 shadow-xl text-center"
+              class="flex h-full flex-col items-center justify-center bg-dark_cyan-600 px-3 py-10 text-center shadow-xl"
             >
               <a
                 href={getRelativeLocaleUrl(lang, path("tours"))}
-                class="bg-transparent border border-opacity-30 border-solid border-yellow-500 font-paragraphs font-thin px-4 py-2 rounded-lg shadow-2xl text-9xl text-yellow-400 uppercase"
+                class="rounded-lg border border-solid border-yellow-500 border-opacity-30 bg-transparent px-4 py-2 font-paragraphs text-9xl font-thin uppercase text-yellow-400 shadow-2xl"
                 >+</a
               >
             </div>
@@ -54,53 +54,53 @@ const path = useTranslationsForRoutes(lang);
     </div>
 
     <!--classes section  -->
-  </section><section class="bg-beige-500 classes">
-    <div class="flex flex-col mx-auto py-20 w-10/12 lg:flex-row">
+  </section><section class="classes bg-beige-500">
+    <div class="mx-auto flex w-10/12 flex-col py-20 lg:flex-row">
       <div
-        class="flex flex-col justify-center pl-0 pr-5 py-10 uppercase w-full lg:w-2/5"
+        class="flex w-full flex-col justify-center py-10 pl-0 pr-5 uppercase lg:w-2/5"
       >
         <h4
-          class="font-thin decoration-0 decoration-lime_green-500 font-paragraphs text-lime_green-700 underline underline-offset-8"
+          class="font-paragraphs font-thin text-lime_green-700 underline decoration-lime_green-500 decoration-0 underline-offset-8"
         >
           {data.classes.subheading}
         </h4>
         <h3
-          class="font-titles font-extrabold mt-5 text-5xl text-background_cyan-500 sm:text-6xl"
+          class="mt-5 font-titles text-5xl font-extrabold capitalize text-background_cyan-500 sm:text-6xl"
         >
           {data.classes.heading}
           <span class="block">{data.classes.heading_span}&nbsp;</span>
         </h3>
-        <p class="mt-3 text-dark_cyan-500 w-5/6 font-thin">
+        <p class="mt-3 w-5/6 font-thin text-dark_cyan-500">
           {data.classes.paragraph}
         </p>
         <a
           href={data.classes.button_link}
-          class="bg-lime_green-600 flex-shrink-0 font-medium font-paragraphs mt-6 px-4 py-2 rounded-lg self-start text-white"
+          class="mt-6 flex-shrink-0 self-start rounded-lg bg-lime_green-600 px-4 py-2 font-paragraphs font-medium text-white"
           >{data.classes.button_text}
         </a>
       </div>
       <div
-        class="classes-photos-container flex overflow-hidden rounded-xl w-full lg:w-3/5"
+        class="classes-photos-container flex w-full overflow-hidden rounded-xl lg:w-3/5"
       >
         <div class="w-1/3">
           <Image
             src={data.classes.image_1.src}
             alt={data.classes.image_1.alt}
-            class="h-full object-cover w-full"
+            class="h-full w-full object-cover"
           />
         </div>
         <div class="w-1/3">
           <Image
             src={data.classes.image_2.src}
             alt={data.classes.image_2.alt}
-            class="h-full object-cover w-full"
+            class="h-full w-full object-cover"
           />
         </div>
         <div class="w-1/3">
           <Image
             src={data.classes.image_3.src}
             alt={data.classes.image_3.alt}
-            class="h-full object-cover w-full"
+            class="h-full w-full object-cover"
           />
         </div>
       </div>
@@ -111,7 +111,7 @@ const path = useTranslationsForRoutes(lang);
     <div class="container mx-auto w-11/12 md:w-9/12 lg:w-10/12 xl:w-8/12">
       <div class="pb-6 pt-12">
         <h2
-          class="border-b border-dashed border-yellow-500 font-titles inline-block leading-normal ml-4 text-3xl text-yellow-500 tracking-wide uppercase sm:text-4xl"
+          class="ml-4 inline-block border-b border-dashed border-yellow-500 font-titles text-3xl uppercase leading-normal tracking-wide text-yellow-500 sm:text-4xl"
         >
           {data.rentals.heading}
         </h2>
@@ -120,24 +120,24 @@ const path = useTranslationsForRoutes(lang);
         <div class="-mx-4 flex flex-wrap">
           {
             data.rentals.cards.map((card) => (
-              <div class="mb-5 px-2 w-full md:w-1/2 lg:w-1/4">
-                <div class="relative rental-card shadow shadow-background_cyan-500 w-full">
+              <div class="mb-5 w-full px-2 md:w-1/2 lg:w-1/4">
+                <div class="rental-card relative w-full shadow shadow-background_cyan-500">
                   <Image
                     src={card.image}
                     alt="Alquiler de Kayak"
-                    class="absolute h-full left-0 object-cover top-0 w-full"
+                    class="absolute left-0 top-0 h-full w-full object-cover"
                   />
-                  <div class="absolute bg-opacity-40 bg-soft_yellow-500 bottom-0 flex flex-col h-1/3 justify-around left-0 w-full">
-                    <h3 class="font-titles drop-shadow-2xl text-background_cyan-500 text-center text-xl uppercase">
+                  <div class="absolute bottom-0 left-0 flex h-1/3 w-full flex-col justify-around bg-soft_yellow-500 bg-opacity-40">
+                    <h3 class="text-center font-titles text-xl uppercase text-background_cyan-500 drop-shadow-2xl">
                       {card.duration}
                     </h3>
-                    <p class="font-bold mt-2 text-background_cyan-500 text-center tracking-wide">
+                    <p class="mt-2 text-center font-bold tracking-wide text-background_cyan-500">
                       {card.cost}{" "}
                     </p>
                     <div class="mb-2 text-center">
                       <a
                         href={card.button_link}
-                        class="inline-block uppercase bg-yellow-500 font-medium font-paragraphs px-4 py-2 rounded-lg"
+                        class="inline-block rounded-lg bg-yellow-500 px-4 py-2 font-paragraphs font-medium uppercase"
                       >
                         {card.button_text}
                       </a>
@@ -148,17 +148,17 @@ const path = useTranslationsForRoutes(lang);
             ))
           }
 
-          <div class="mb-5 px-2 w-full md:w-1/2 lg:w-1/4">
+          <div class="mb-5 w-full px-2 md:w-1/2 lg:w-1/4">
             <div
-              class="relative rental-card shadow shadow-background_cyan-500 w-full"
+              class="rental-card relative w-full shadow shadow-background_cyan-500"
             >
               <div
-                class="absolute bg-background_cyan-500 bg-opacity-40 bottom-0 flex flex-col h-full justify-around left-0 w-full"
+                class="absolute bottom-0 left-0 flex h-full w-full flex-col justify-around bg-background_cyan-500 bg-opacity-40"
               >
                 <div class="mb-2 text-center">
                   <a
                     href={getRelativeLocaleUrl(lang, path("rentals"))}
-                    class="bg-transparent border border-opacity-30 border-solid border-yellow-500 font-paragraphs font-thin px-4 py-2 rounded-lg shadow-2xl text-9xl text-yellow-400 uppercase"
+                    class="rounded-lg border border-solid border-yellow-500 border-opacity-30 bg-transparent px-4 py-2 font-paragraphs text-9xl font-thin uppercase text-yellow-400 shadow-2xl"
                     >+</a
                   >
                 </div>
