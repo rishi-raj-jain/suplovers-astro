@@ -10,8 +10,8 @@ tours:
   button_link: link to juancho
 
 classes: 
-  heading: CLASES 
-  heading_span: Y CURSOS
+  heading: Clases
+  heading_span: Y Cursos
   subheading: aprende con nosotros
   paragraph: > 
     DESCUBRE LA MAGIA DEL PADDLEBOARDING CON NUESTRAS CLASES PARA TODOS LOS NIVELES. DESDE PRINCIPIANTES HASTA AVANZADOS, EXPERIMENTA UNA CONEXIÓN ÚNICA CON LA NATURALEZA EN CADA SESIÓN. ÚNETE A NOSOTROS PARA EMBARCARTE EN ESTA EMOCIONANTE AVENTURA ACUÁTICA.
