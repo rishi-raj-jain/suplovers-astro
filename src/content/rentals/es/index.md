@@ -1,7 +1,7 @@
 ---
 heading: Alquileres
-subheading: equipos
-equipment: "Equipos: Tabla, Remo, Leash, Chaleco"
+subheading: Equipos
+equipment: "Tabla, Remo, Leash, Chaleco"
 rental_modalities:
   title: Precios
   list:
