@@ -4,6 +4,7 @@ card:
   title: BALSA CHIQUI ROUTE
   paragraph: >
     A 7-kilometer paddle through a beautiful canal with calm waters. Includes a detour into a small marsh in Chiqui. All transportation is included.
+    
   button_text: Read more...
   button_link: /tours/balsa-chiqui
   image:

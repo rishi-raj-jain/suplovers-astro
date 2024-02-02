@@ -19,8 +19,9 @@ section_1:
 section_2:
   title: Playa Blanca Coveñas
   description: >
-    Vive la experiencia de la belleza natural de Coveñas con nuestro tour Ruta Playa Blanca Coveñas. Este escénico descenso de 11 kilómetros bordeando la costa del Golfo de Morrosquillo te lleva desde Playa Blanca hasta Coveñas. En el camino, encontrarás áreas con bajos donde podrás hacer careteo y observar peces y crustáceos. También hay paradas en playas vírgenes para descansar.
-  cost: 200.000 pesos
+    Vive la experiencia de la belleza natural con nuestro tour Ruta Playa Blanca Coveñas. Este descenso de 11 kilómetros bordeando la costa del Golfo de Morrosquillo te lleva desde Playa Blanca hasta Coveñas. En el camino, encontrarás áreas con bajos donde podrás hacer careteo y observar peces y crustáceos. También hay paradas en playas vírgenes para descansar.
+ 
+ cost: 200.000 pesos
   
   highlights:
     title: atracciones

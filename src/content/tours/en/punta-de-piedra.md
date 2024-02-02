@@ -19,8 +19,7 @@ section_1:
 section_2:
   title: Punta de Piedra
   description: >
-    Experience the natural beauty of Coveñas with our Punta de Piedra Route paddle tour.
-    This scenic paddle of approximately 7 km along the coast to Punta de Piedra offers the possibility of fish sightings. It includes a small reef for snorkeling, where you can observe fish and, in some cases, turtles, especially in the early morning.
+    A scenic paddle of approximately 7 km along the coast to Punta de Piedra.Includes a small reef for snorkeling, where you can observe fish and, in some cases, turtles, especially early in the morning.
   cost: 80,000 pesos
   
   highlights:

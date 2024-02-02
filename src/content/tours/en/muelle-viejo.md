@@ -3,7 +3,7 @@ priority: 1
 card:
   title: MUELLE VIEJO ROUTE
   paragraph: >
-    Paddle for 3.5 kilometers near the beaches of Coveñas. Visit the foundations of the old Ecopetrol pier, inhabited by pelicans and seagulls. Offers bird watching for approximately one hour.
+    Paddle for 3.5 kilometers near the beaches of Coveñas. Visit the foundations of the old Ecopetrol pier, inhabited by pelicans and seagulls and other birds.
   button_text: Read more...
   button_link: /tours/muelle-viejo
   image:
@@ -19,10 +19,8 @@ section_1:
 section_2:
   title: Muelle Viejo
   description: >
-    Experience the natural beauty of Coveñas with our Muelle Viejo Route paddle tour.
-    This scenic 3.5-kilometer paddle near the beaches of Coveñas takes you to
-    the remains of the old Ecopetrol pier. The pier is always populated by
-    pelicans, seagulls, and other birds, making it a perfect spot for birdwatchers.
+    Experience the natural beauty of Coveñas with our Ruta Muelle Viejo tour.
+    This beautiful 3.5 kilometer tour near the beaches of Coveñas takes you to the remains of the old Ecopetrol pier. The pier is always populated by pelicans, seagulls and other birds, making it a perfect place for birdwatchers.
   cost: 60,000 pesos
 
   highlights:

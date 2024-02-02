@@ -19,7 +19,7 @@ section_1:
 section_2:
   title: Playa Blanca Coveñas
   description: >
-    Experience the natural beauty of Coveñas with our Playa Blanca Coveñas Route tour. This scenic 11-kilometer downwind along the coast of the Gulf of Morrosquillo takes you from Playa Blanca to Coveñas. Along the way, you'll encounter areas with shallows where you can snorkel and observe fish and crustaceans. There are also stops at pristine beaches for relaxation.
+    Experience the natural beauty with our tour Playa Blanca Coveñas Route. This 11-kilometer descent along the coast of the Gulf of Morrosquillo takes you from Playa Blanca to Coveñas. Along the way, you will find areas with shallows where you can snorkel and observe fish and crustaceans. There are also stops at pristine beaches to rest and have fun.
   cost: 200,000 pesos
   
   highlights:
