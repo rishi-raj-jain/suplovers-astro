@@ -8,7 +8,6 @@ export default {
         titles: ["PROVICALI", "sans-serif"],
         brand: ["THICCCBOI", "sans-serif"],
         brandSub: ["THICCCBOI Medium", "sans-serif"],
-        italic: ["MADE Soulmaze Italic", "sans-serif"],
         paragraphs: ["Montserrat", "sans-serif"],
       },
 
