@@ -3,7 +3,7 @@ priority: 3
 card:
   title: CAIMANERA ROUTE
   paragraph: >
-    A 6-kilometer tour that includes paths through mangroves and a detour around the Cienaga. It lasts approximately two hours and offers bird sightings, possibly raccoons, and fish in the Caimanera Cienaga.
+    A 6-kilometer tour that includes paths through mangroves and a detour around the Cienaga. It offers bird sightings, possibly raccoons, and fish in the Caimanera Cienaga.
   button_text: Read more...
   button_link: /tours/caimanera
   image:
