@@ -2,12 +2,12 @@
 const { bgColor } = Astro.props;
 const data = {
   button_text: "WhatsApp",
-  button_link: "/",
+  button_link: "https://wa.me/3015867557",
 };
 const style = `${bgColor} font-medium font-paragraphs inline-flex items-center mt-5 px-4 py-4 rounded self-start text-white text-xl`;
 ---
 
-<a href="/" class={style}>
+<a target="_blank" href={data.button_link} class={style}>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

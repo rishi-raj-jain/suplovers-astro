@@ -7,7 +7,7 @@ hero:
 tours:
   heading: Explora Nuestros Tours
   button_text: WhatsApp
-  button_link: link to juancho
+  button_link: ss
 
 classes: 
   heading: Clases
