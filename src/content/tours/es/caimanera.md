@@ -2,8 +2,8 @@
 priority: 3
 card:
   title: RUTA CAIMANERA
-  paragraph: >
-    Tour de 6 kilómetros que incluye caminos de Mangle y una vuelta por la Cienaga. Dura aproximadamente dos horas y ofrece avistamientos de aves, posiblemente mapaches y peces en la Cienaga la Caimanera.
+  paragraph: > 
+    Explora la Ruta Caimanera, un recorrido de 6 km que pasa por senderos en manglares y rodea la Ciénaga. Con una duración de aproximadamente dos horas, este tour ofrece la posibilidad de avistar aves y, con suerte, mapaches.  
   button_text: Leer más...
   button_link: /tours/caimanera
   image:

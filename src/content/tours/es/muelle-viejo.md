@@ -3,7 +3,7 @@ priority: 1
 card:
   title: RUTA MUELLE VIEJO
   paragraph: >
-    Remo de 3.5 kilómetros cerca de las playas de Coveñas. Visita a los cimientos del muelle viejo de Ecopetrol, poblado por pelícanos y gaviotas. Ofrece avistamiento de aves durante aproximadamente una hora.
+    Remo de 3.5 kilómetros cerca de las playas de Coveñas. Visita los cimientos del muelle viejo de Ecopetrol, poblado por pelícanos y gaviotas.
   button_text: Leer más...
   button_link: /tours/muelle-viejo
   image:
@@ -20,9 +20,7 @@ section_2:
   title: Muelle Viejo
   description: >
     Experimenta la belleza natural de Coveñas con nuestro recorrido Ruta Muelle Viejo.
-    Este pintoresco remo de 3.5 kilómetros cerca de las playas de Coveñas te lleva a
-    los restos del antiguo muelle de Ecopetrol. El muelle siempre está poblado por
-    pelícanos, gaviotas y otros pájaros, convirtiéndolo en un lugar perfecto para los amantes de la observación de aves.
+    Este pintoresco tour de 3.5 kilómetros cerca de las playas de Coveñas te lleva a los restos del antiguo muelle de Ecopetrol. El muelle siempre está poblado por pelícanos, gaviotas y otros pájaros, convirtiéndolo en un lugar perfecto para los amantes de la observación de aves.
   cost: 60.000 pesos
 
   highlights:

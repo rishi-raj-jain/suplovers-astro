@@ -19,8 +19,7 @@ section_1:
 section_2:
   title: Punta de Piedra
   description: >
-    Experimenta la belleza natural de Coveñas con nuestro recorrido Ruta Punta de Piedra.
-    Esta escénica remada de aproximadamente 7 km por la costa hasta Punta de Piedra ofrece la posibilidad de avistamiento de peces. Incluye un pequeño arrecife para hacer snorkel, donde podrás observar peces y, en algunos casos, tortugas, especialmente temprano en la mañana.
+    Una escénica remada de aproximadamente 7 km por la costa hasta Punta de Piedra. Incluye un pequeño arrecife para hacer snorkel, donde podrás observar peces y, en algunos casos, tortugas, especialmente temprano en la mañana.
   cost: 80.000 pesos
   
   highlights:
