@@ -2,6 +2,7 @@
 import { ViewTransitions } from "astro:transitions";
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
+import BaseHead from "../components/BaseHead.astro";
 
 // fonts // Supports weights 100-900
 import "@fontsource-variable/montserrat";
@@ -9,6 +10,10 @@ import "@fontsource-variable/montserrat";
 import "@fontsource-variable/outfit";
 // Supports weights 100-900
 import "@fontsource-variable/raleway";
+
+const { title, description, image = "/og-image.jpg" } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <style is:global>
@@ -47,10 +52,13 @@ import "@fontsource-variable/raleway";
 
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Document</title>
+    <BaseHead
+      title={title}
+      description={description}
+      image={image}
+      canonicalURL={canonicalURL}
+    />
+
     <ViewTransitions />
   </head>
   <body class="font-paragraphs">
