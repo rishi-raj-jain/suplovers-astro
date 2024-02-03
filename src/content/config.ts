@@ -1,5 +1,6 @@
 // 1. Import utilities from `astro:content`
 import { z, defineCollection } from "astro:content";
+import { headMetaData } from "../contentSchemas/commonSchemas/headMetaData";
 
 // 2. Define a `type` and `schema` for each collection
 
@@ -7,6 +8,7 @@ const frontPage = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       hero: z.object({
         heading: z.string(),
         subheading: z.string(),
@@ -48,7 +50,7 @@ const frontPage = defineCollection({
             button_text: z.string(),
             button_link: z.string(),
             image: image(),
-          })
+          }),
         ),
       }),
     }),
@@ -58,6 +60,7 @@ const tours = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       priority: z.number(),
       card: z.object({
         title: z.string(),
@@ -104,6 +107,7 @@ const rentals = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       heading: z.string(),
       subheading: z.string(),
       equipment: z.string(),
@@ -113,7 +117,7 @@ const rentals = defineCollection({
           z.object({
             duration: z.string(),
             cost: z.string(),
-          })
+          }),
         ),
       }),
 
@@ -142,6 +146,7 @@ const classes = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       heading: z.string(),
       subheading: z.string(),
       description: z.string(),
@@ -173,6 +178,7 @@ const about_us = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       about_us: z.object({
         heading: z.string(),
         subheading: subheadingSchema,
@@ -208,6 +214,7 @@ const contact = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
+      headMetaData: headMetaData(z, image),
       heading: z.string(),
       description: z.string(),
       button_text: z.string(),
