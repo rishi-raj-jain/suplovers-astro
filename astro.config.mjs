@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://suplovers.co",
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en"],
