@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 heading: Contáctanos
 description: >
     ¡Estamos aquí para responder a todas tus preguntas y ayudarte a sumergirte en la experiencia única del paddleboarding! ¡Contáctanos hoy y descubre la emoción que te espera en SUPLOVERS.CO

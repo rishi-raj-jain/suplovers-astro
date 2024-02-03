@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 priority: 6
 card:
   title: RUTA BALSA CHIQUI

@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 priority: 2
 card:
   title: RUTA PUNTA DE PIEDRA

@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 priority: 4
 card:
   title: RUTA PLAYA BLANCA COVEÑAS

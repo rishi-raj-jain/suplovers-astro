@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 heading: Mini-Class
 subheading: Pequeña Iniciación al Paddleboarding
 description: > 

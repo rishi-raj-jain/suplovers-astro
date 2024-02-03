@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 heading: Rentals
 subheading: Equipment
 equipment: "Board, Paddle, Leash, Life Jacket"

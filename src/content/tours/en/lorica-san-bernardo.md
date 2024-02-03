@@ -1,4 +1,8 @@
 ---
+headMetaData: 
+    title: sobre nosotros 
+    description: esta es la descripción sobre nosotros 
+    
 priority: 7
 card:
   title: LORICA SAN BERNARDO ROUTE
