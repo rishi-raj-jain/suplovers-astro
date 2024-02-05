@@ -5,7 +5,7 @@ import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
 const { data } = Astro.props;
 ---
 
-<Layout>
+<Layout data={data.headMetaData}>
   <main class="bg-dark_cyan-500">
     <section
       class="bg-beige-500 text-center text-gray-500 lg:py-16 lg:text-left"

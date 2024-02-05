@@ -5,34 +5,34 @@ import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
 const { masterClass, miniClass, advancedClass } = Astro.props;
 ---
 
-<Layout>
+<Layout data={masterClass.headMetaData}>
   <section class="bg-beige-500 text-center text-gray-500 lg:py-16 lg:text-left">
     <div class="container mx-auto px-4 lg:w-11/12 xl:w-10/12">
       <div class="-mx-4 flex flex-wrap">
-        <div class="p-4 w-full lg:order-1 lg:w-5/12">
+        <div class="w-full p-4 lg:order-1 lg:w-5/12">
           <h2
-            class="font-titles mt-5 text-5xl text-background_cyan-500 sm:text-6xl"
+            class="mt-5 font-titles text-5xl text-background_cyan-500 sm:text-6xl"
           >
             {masterClass.heading}
           </h2>
           <h4
-            class="decoration-0 decoration-lime_green-500 font-paragraphs mt-3 text-lime_green-700 underline underline-offset-8"
+            class="mt-3 font-paragraphs text-lime_green-700 underline decoration-lime_green-500 decoration-0 underline-offset-8"
           >
             {masterClass.subheading}
           </h4>
           <p
-            class="font-paragraphs p-5 text-background_cyan-500 text-base md:text-lg lg:px-0 lg:py-5"
+            class="p-5 font-paragraphs text-base text-background_cyan-500 md:text-lg lg:px-0 lg:py-5"
           >
             {masterClass.description}
           </p>
           <div class="mb-5 md:mb-5">
-            <p class="text-lime_green-600 uppercase font-bold">
+            <p class="font-bold uppercase text-lime_green-600">
               <span class="text-background_cyan-500"
                 >{masterClass.duration.title}</span
               >
               {masterClass.duration.duration}
             </p>
-            <p class="font-bold text-lime_green-600 uppercase">
+            <p class="font-bold uppercase text-lime_green-600">
               <span class="text-background_cyan-500"
                 >{masterClass.cost.title}:</span
               >
@@ -41,14 +41,14 @@ const { masterClass, miniClass, advancedClass } = Astro.props;
           </div>
           <ButtonWhatsApp bgColor="bg-lime_green-600" />
         </div>
-        <div class="p-4 w-full lg:ml-auto lg:order-2 lg:w-6/12">
+        <div class="w-full p-4 lg:order-2 lg:ml-auto lg:w-6/12">
           <div
-            class="-mx-4 flex h-full items-center justify-center overflow-hidden p-2 rounded-lg shadow-beige-700 shadow-lg"
+            class="-mx-4 flex h-full items-center justify-center overflow-hidden rounded-lg p-2 shadow-lg shadow-beige-700"
           >
             <Image
               src={masterClass.image.src}
               alt={masterClass.image.alt}
-              class="h-full object-cover rounded-lg w-full"
+              class="h-full w-full rounded-lg object-cover"
             />
           </div>
         </div>
@@ -62,38 +62,38 @@ const { masterClass, miniClass, advancedClass } = Astro.props;
   >
     <div class="container mx-auto px-4 lg:w-11/12 xl:w-10/12">
       <div class="-mx-4 flex flex-wrap">
-        <div class="p-4 w-full lg:ml-10 lg:w-5/12">
-          <h2 class="font-titles mt-5 text-5xl text-yellow-500 sm:text-6xl">
+        <div class="w-full p-4 lg:ml-10 lg:w-5/12">
+          <h2 class="mt-5 font-titles text-5xl text-yellow-500 sm:text-6xl">
             {miniClass.heading}
           </h2>
           <h4
-            class="decoration-0 decoration-beige-400 font-paragraphs mt-3 text-beige-400 underline underline-offset-8"
+            class="mt-3 font-paragraphs text-beige-400 underline decoration-beige-400 decoration-0 underline-offset-8"
           >
             {miniClass.subheading}
           </h4>
           <p
-            class="font-paragraphs mb-6 p-5 text-base text-beige-100 md:text-lg lg:px-0 lg:py-5"
+            class="mb-6 p-5 font-paragraphs text-base text-beige-100 md:text-lg lg:px-0 lg:py-5"
           >
             {miniClass.description}
           </p>
           <div class="mb-5 md:mb-5">
-            <p class="font-bold text-soft_yellow-400 uppercase">
+            <p class="font-bold uppercase text-soft_yellow-400">
               <span class="text-yellow-500">{miniClass.duration.title}:</span>
               {miniClass.duration.duration}
             </p>
-            <p class="font-bold text-soft_yellow-400 uppercase">
+            <p class="font-bold uppercase text-soft_yellow-400">
               <span class="text-yellow-500">{miniClass.cost.title}:</span
               >&nbsp;{miniClass.cost.cost}
             </p>
           </div>
           <ButtonWhatsApp bgColor="bg-yellow-500" />
         </div>
-        <div class="p-4 w-full lg:order-first lg:w-6/12">
+        <div class="w-full p-4 lg:order-first lg:w-6/12">
           <div
-            class="-mx-4 flex h-full items-center justify-center overflow-hidden p-2 rounded-lg shadow-dark_cyan-600 shadow-lg"
+            class="-mx-4 flex h-full items-center justify-center overflow-hidden rounded-lg p-2 shadow-lg shadow-dark_cyan-600"
           >
             <Image
-              class="h-full object-cover rounded-lg w-full"
+              class="h-full w-full rounded-lg object-cover"
               src={miniClass.image.src}
               alt={miniClass.image.alt}
             />
@@ -108,30 +108,30 @@ const { masterClass, miniClass, advancedClass } = Astro.props;
   <section class="bg-beige-500 text-center text-gray-500 lg:py-16 lg:text-left">
     <div class="container mx-auto px-4 lg:w-11/12 xl:w-10/12">
       <div class="-mx-4 flex flex-wrap">
-        <div class="p-4 w-full lg:order-1 lg:w-5/12">
+        <div class="w-full p-4 lg:order-1 lg:w-5/12">
           <h2
-            class="font-titles mt-5 text-5xl text-background_cyan-500 sm:text-6xl"
+            class="mt-5 font-titles text-5xl text-background_cyan-500 sm:text-6xl"
           >
             {advancedClass.heading}
           </h2>
           <h4
-            class="decoration-0 decoration-lime_green-500 font-paragraphs mt-3 text-lime_green-700 underline underline-offset-8"
+            class="mt-3 font-paragraphs text-lime_green-700 underline decoration-lime_green-500 decoration-0 underline-offset-8"
           >
             {advancedClass.subheading}
           </h4>
           <p
-            class="font-paragraphs mb-6 p-5 text-background_cyan-500 text-base md:text-lg lg:px-0 lg:py-5"
+            class="mb-6 p-5 font-paragraphs text-base text-background_cyan-500 md:text-lg lg:px-0 lg:py-5"
           >
             {advancedClass.description}
           </p>
           <div class="mb-5 md:mb-5">
-            <p class="text-lime_green-600 uppercase font-bold">
+            <p class="font-bold uppercase text-lime_green-600">
               <span class="text-background_cyan-500"
                 >{advancedClass.duration.title}:</span
               >
               {advancedClass.duration.duration}
             </p>
-            <p class="font-bold text-lime_green-600 uppercase">
+            <p class="font-bold uppercase text-lime_green-600">
               <span class="text-background_cyan-500"
                 >{advancedClass.cost.title}:</span
               >
@@ -140,14 +140,14 @@ const { masterClass, miniClass, advancedClass } = Astro.props;
           </div>
           <ButtonWhatsApp bgColor="bg-lime_green-600" />
         </div>
-        <div class="p-4 w-full lg:ml-auto lg:order-2 lg:w-6/12">
+        <div class="w-full p-4 lg:order-2 lg:ml-auto lg:w-6/12">
           <div
-            class="-mx-4 flex h-full items-center justify-center overflow-hidden p-2 rounded-lg shadow-beige-700 shadow-lg"
+            class="-mx-4 flex h-full items-center justify-center overflow-hidden rounded-lg p-2 shadow-lg shadow-beige-700"
           >
             <Image
               src={advancedClass.image.src}
               alt={advancedClass.image.alt}
-              class="h-full object-cover rounded-lg w-full"
+              class="h-full w-full rounded-lg object-cover"
             />
           </div>
         </div>

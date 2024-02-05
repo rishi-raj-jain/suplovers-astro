@@ -6,7 +6,7 @@ import { Image } from "astro:assets";
 const { data } = Astro.props;
 ---
 
-<Layout>
+<Layout data={data.headMetaData}>
   <section class="relative bg-gray-800 text-white">
     <div
       class="container relative mx-auto bg-dark_cyan-500 px-4 py-10 md:z-50 md:bg-transparent md:py-32"

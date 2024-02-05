@@ -2,6 +2,15 @@
 import TourLayout from "../../pageLayouts/ToursLayout.astro";
 import { getCollection } from "astro:content";
 const tours = await getCollection("tours", ({ id }) => id.startsWith("es/"));
+
+const headMetaData = {
+  title: "Tours en español",
+  description: "Tours en español",
+};
 ---
 
-<TourLayout tours={tours} indexTitle="Nuestros Tours"/>
+<TourLayout
+  headMetaData={headMetaData}
+  tours={tours}
+  indexTitle="Nuestros Tours"
+/>

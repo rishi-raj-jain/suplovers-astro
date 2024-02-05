@@ -4,7 +4,7 @@ import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
 const { data } = Astro.props;
 ---
 
-<Layout>
+<Layout data={data.headMetaData}>
   <main class="bg-beige-500 p-10">
     <h1 class="text-center font-titles text-4xl capitalize">{data.heading}</h1>
     <p class="mt-4 text-center font-paragraphs text-lg lg:mx-auto lg:w-3/4">

@@ -2,12 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import TourCard from "../components/TourCard.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
-let { tours, indexTitle } = Astro.props;
+let { tours, indexTitle, headMetaData } = Astro.props;
 // Assuming each tour object has a 'priority' property
 tours = tours.sort((a, b) => a.data.priority - b.data.priority);
 ---
 
-<Layout>
+<Layout data={headMetaData}>
   <main class="bg-dark_cyan-500 pb-10 pt-5">
     <div class="py-10 text-center">
       <h1
