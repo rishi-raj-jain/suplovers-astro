@@ -6,7 +6,7 @@ headMetaData:
 hero:
   heading: SUPLOVERS.CO
   subheading: PADDLEBOARD COMMUNITY
-  image: /src/assets/hero.jpg
+  image: /src/assets/hero-small.jpg
 
 tours:
   heading: Explora Nuestros Tours
