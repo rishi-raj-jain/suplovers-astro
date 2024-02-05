@@ -3,6 +3,7 @@ import { ViewTransitions } from "astro:transitions";
 import NavBar from "../components/NavBar.astro";
 import Footer from "../components/Footer.astro";
 import BaseHead from "../components/BaseHead.astro";
+import { getLangFromUrl } from "../i18n/utils";
 
 // fonts // Supports weights 100-900
 import "@fontsource-variable/montserrat";
@@ -16,6 +17,7 @@ const {
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <style is:global>
@@ -52,7 +54,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   }
 </style>
 
-<html lang="es">
+<html lang={lang}>
   <head>
     <BaseHead
       title={title}
