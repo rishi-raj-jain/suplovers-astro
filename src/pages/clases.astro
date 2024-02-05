@@ -4,9 +4,15 @@ import ClassesLayout from "../pageLayouts/ClassesLayout.astro";
 const { data: masterClass } = await getEntry("classes", "es/master-class");
 const { data: miniClass } = await getEntry("classes", "es/mini-class");
 const { data: advancedClass } = await getEntry("classes", "es/avanzada");
+
+const headMetaData = {
+  title: "Tours en español",
+  description: "Tours en español",
+};
 ---
 
 <ClassesLayout
+  headMetaData={headMetaData}
   masterClass={masterClass}
   miniClass={miniClass}
   advancedClass={advancedClass}
