@@ -2,10 +2,10 @@
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
-const { about_us, philosophy, join_us } = Astro.props;
+const { about_us, philosophy, join_us, headMetaData } = Astro.props;
 ---
 
-<Layout>
+<Layout data={headMetaData}>
   <main class="bg-dark_cyan-500">
     <!-- About Us Section -->
     <div class="md:flex">

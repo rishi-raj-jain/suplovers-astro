@@ -12,7 +12,6 @@ const { data, tours } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 const path = useTranslationsForRoutes(lang);
-console.log(data);
 ---
 
 <Layout data={data.headMetaData}>

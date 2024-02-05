@@ -2,8 +2,13 @@
 import { getEntry } from "astro:content";
 import AboutUsLayOut from "../../pageLayouts/AboutUsLayout.astro";
 const {
-  data: { about_us, philosophy, join_us },
+  data: { about_us, philosophy, join_us, headMetaData },
 } = await getEntry("about_us", "en");
 ---
 
-<AboutUsLayOut about_us={about_us} philosophy={philosophy} join_us={join_us} />
+<AboutUsLayOut
+  headMetaData={headMetaData}
+  about_us={about_us}
+  philosophy={philosophy}
+  join_us={join_us}
+/>
