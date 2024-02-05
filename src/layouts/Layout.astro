@@ -11,7 +11,9 @@ import "@fontsource-variable/outfit";
 // Supports weights 100-900
 import "@fontsource-variable/raleway";
 
-const { title, description, image = "/og-image.png" } = Astro.props;
+const {
+  data: { title, description, image = "/og-image.png" },
+} = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---

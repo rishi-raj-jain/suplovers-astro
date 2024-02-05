@@ -6,14 +6,16 @@ import TourCard from "../components/TourCard.astro";
 import Hero from "../components/Hero.astro";
 import Layout from "../layouts/Layout.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
+import { headMetaData } from "../contentSchemas/commonSchemas/headMetaData";
 
 const { data, tours } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 const path = useTranslationsForRoutes(lang);
+console.log(data);
 ---
 
-<Layout>
+<Layout data={data.headMetaData}>
   <Hero data={data.hero} />
 
   <!-- tours section -->
