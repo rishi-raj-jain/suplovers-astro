@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: Suplovers.co 
+    description: Suplovers.co is a Colombian Paddleboarding community 
     
 hero:
   heading: SUPLOVERS.CO
