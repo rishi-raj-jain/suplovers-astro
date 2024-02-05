@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: LORICA SAN BERNARDO ROUTE 
+    description: 30 km route from the town of Lorica, a historical heritage. Explore diverse landscapes in the Sinú River basin, visit riverside communities, and enjoy bird watching. 
     
 priority: 7
 card:

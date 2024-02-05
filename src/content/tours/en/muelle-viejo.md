@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: MUELLE VIEJO ROUTE 
+    description: Paddle for 3.5 kilometers near the beaches of Coveñas. Visit the foundations of the old Ecopetrol pier, inhabited by pelicans and seagulls and other birds.
     
 priority: 1
 card:

@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: BALSA CHIQUI ROUTE 
+    description: A 7-kilometer paddle through a beautiful canal with calm waters. Includes a detour into a small marsh in Chiqui. All transportation is included.
     
 priority: 6
 card:

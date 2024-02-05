@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: PUNTA DE PIEDRA ROUTE
+    description: Paddle for approximately 7 km along the coast to Punta de Piedra. Possibility of fish sightings, snorkeling, and encounters with turtles. Approximate duration of one and a half hours. 
     
 priority: 2
 card:

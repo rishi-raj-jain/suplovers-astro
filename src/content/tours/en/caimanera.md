@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: CAIMANERA ROUTE 
+    description: A 6-kilometer tour that includes paths through mangroves and a detour around the Cienaga. It offers bird sightings, possibly raccoons, and fish in the Caimanera Cienaga. 
     
 priority: 3
 card:

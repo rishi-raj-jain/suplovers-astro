@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: CISPATA ROUTE 
+    description: Tour through the entire mangrove of the Sinú River estuary ecosystem. A seven-kilometer journey that lasts approximately three hours. 
     
 priority: 5
 card:

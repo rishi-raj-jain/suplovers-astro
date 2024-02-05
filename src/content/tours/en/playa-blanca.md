@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: PLAYA BLANCA COVEÑAS ROUTE
+    description: 11-kilometer downwind along the coast of the Gulf of Morrosquillo. Includes stops at pristine beaches and the possibility of snorkeling to observe fish and crustaceans. Duration of approximately two hours.
     
 priority: 4
 card:
