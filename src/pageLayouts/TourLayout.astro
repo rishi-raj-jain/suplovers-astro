@@ -2,8 +2,16 @@
 import Layout from "../layouts/Layout.astro";
 import ButtonWhatsApp from "../components/ButtonWhatsApp.astro";
 import { Image } from "astro:assets";
+import { getLangFromUrl } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
 
 const { data } = Astro.props;
+
+const costoText = {
+  es: "Costo:",
+  en: "Cost:",
+};
 ---
 
 <Layout data={data.headMetaData}>
@@ -66,7 +74,7 @@ const { data } = Astro.props;
           <h4
             class="me-2 font-titles text-2xl capitalize text-background_cyan-500"
           >
-            costo:
+            {costoText[lang]}
           </h4>
           <p
             class="font-paragraphs font-bold uppercase tracking-wider text-background_cyan-500"
