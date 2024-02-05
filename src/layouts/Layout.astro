@@ -16,7 +16,7 @@ const {
   data: { title, description, image = "/og-img.png" },
 } = Astro.props;
 
-const ogImage = "/og-img.png";
+const ogImage = "/og-img.jpg";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const lang = getLangFromUrl(Astro.url);
 ---
