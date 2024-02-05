@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA CAIMANERA
+    description: Explora la Ruta Caimanera, un recorrido de 6 km que pasa por senderos en manglares y rodea la Ciénaga. Con una duración de aproximadamente dos horas, este tour ofrece la posibilidad de avistar aves y, con suerte, mapaches. 
     
 priority: 3
 card:

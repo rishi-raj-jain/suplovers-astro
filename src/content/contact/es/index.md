@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: Contacto
+    description: Estamos aquí para responder a todas tus preguntas.
     
 heading: Contáctanos
 description: >

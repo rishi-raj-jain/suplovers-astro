@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA PUNTA DE PIEDRA 
+    description: Remo de aproximadamente 7 km a lo largo de la costa hasta Punta de Piedra. Posibilidad de avistamiento de peces, snorkeling y encuentro con tortugas. Duración aproximada de una hora y media.
     
 priority: 2
 card:

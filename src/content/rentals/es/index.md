@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: Alquileres 
+    description: Alguila los equipos necesarios para practicar Paddleboarding
     
 heading: Alquileres
 subheading: Equipos

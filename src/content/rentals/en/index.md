@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: Rentals
+    description: Rent all the necessary equipment to practice paddleboarding.
     
 heading: Rentals
 subheading: Equipment

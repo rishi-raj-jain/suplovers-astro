@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA BALSA CHIQUI
+    description: Remada de 7 kilómetros por un caño hermoso de aguas tranquilas. Incluye una vuelta por la ciénaga Sabana del Rosario. Transportes incluidos. 
     
 priority: 6
 card:

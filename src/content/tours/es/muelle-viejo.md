@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA MUELLE VIEJO 
+    description: Remo de 3.5 kilómetros cerca de las playas de Coveñas. Visita los cimientos del muelle viejo de Ecopetrol, poblado por pelícanos y gaviotas. 
     
 priority: 1
 card:

@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: About Us 
+    description: we are a dedicated community that shares a passion for connecting people with nature through the exciting water sport of Paddleboarding.
     
 about_us:
     heading: About Us

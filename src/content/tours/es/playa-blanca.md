@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA PLAYA BLANCA COVEÑAS
+    description: Downwind de 11 kilómetros bordeando la costa del Golfo de Morrosquillo. Incluye paradas en playas vírgenes y la posibilidad de caretear y observar peces y crustáceos. Duración de dos horas aproximadamente.
     
 priority: 4
 card:

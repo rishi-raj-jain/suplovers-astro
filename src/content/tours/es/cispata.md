@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA CISPATA 
+    description: Tour por todo el manglar del ecosistema de la desembocadura del río Sinú. Recorrido de siete kilómetros que dura aproximadamente tres horas. 
     
 priority: 5
 card:

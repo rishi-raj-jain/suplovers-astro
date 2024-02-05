@@ -1,7 +1,7 @@
 ---
 headMetaData: 
-    title: sobre nosotros 
-    description: esta es la descripción sobre nosotros 
+    title: RUTA LORICA SAN BERNARDO 
+    description: Ruta de 30 km desde el pueblo de Lorica, patrimonio histórico. Recorre diversos paisajes en la cuenca del río Sinú, visitando comunidades ribereñas y disfrutando de la observación de aves.
     
 priority: 7
 card:
