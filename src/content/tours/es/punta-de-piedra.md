@@ -33,7 +33,7 @@ section_2:
       - Snorkel
       - Posible avistamiento de tortugas
   map:
-    src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15867.009911374053!2d-75.61020612716673!3d6.163894277135764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683cb1d5771e9%3A0x4fda2fc926473c68!2sPolideportivo%20Sur%20de%20Envigado!5e0!3m2!1sen!2sco
+    src: https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3936.2059757100983!2d-75.675461!3d9.403315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMjQnMTEuOSJOIDc1wrA0MCczMS43Ilc!5e0!3m2!1sen!2sco!4v1707223030348!5m2!1sen!2sco
   stats:
     distance: 7 km
     duration: 1.5 horas
