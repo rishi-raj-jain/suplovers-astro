@@ -5,12 +5,7 @@ import Footer from "../components/Footer.astro";
 import BaseHead from "../components/BaseHead.astro";
 import { getLangFromUrl } from "../i18n/utils";
 
-// fonts // Supports weights 100-900
-import "@fontsource-variable/montserrat";
-// Supports weights 100-900
-import "@fontsource-variable/outfit";
-// Supports weights 100-900
-import "@fontsource-variable/raleway";
+import "../styles/global.css";
 
 const {
   data: { title, description, image = "/og-image.jpg" },
@@ -19,40 +14,6 @@ const {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const lang = getLangFromUrl(Astro.url);
 ---
-
-<style is:global>
-  @font-face {
-    font-family: "THICCCBOI";
-    src: url("/fonts/THICCCBOI-ThicccAF.woff2") format("woff2");
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "THICCCBOI Medium";
-    src: url("/fonts/THICCCBOI-Medium.woff2") format("woff2");
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "Montserrat-VariableFont";
-    src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("woff2");
-  }
-  @font-face {
-    font-family: "PROVICALI";
-    src: url("/fonts/Provicali.woff2") format("woff2");
-  }
-
-  .font-titles {
-    @apply tracking-wider;
-  }
-
-  .text-shadow {
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
-  }
-  .text-shadow-small {
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.721);
-  }
-</style>
 
 <html lang={lang}>
   <head>
