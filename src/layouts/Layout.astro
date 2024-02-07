@@ -6,6 +6,8 @@ import BaseHead from "../components/BaseHead.astro";
 import { getLangFromUrl } from "../i18n/utils";
 
 import "../styles/global.css";
+import { join } from "node:path";
+import { AstroFont } from "astro-font";
 
 const {
   data: { title, description, image = "/og-image.jpg" },
@@ -23,8 +25,65 @@ const lang = getLangFromUrl(Astro.url);
       canonicalURL={canonicalURL}
       image={image}
     />
-
     <ViewTransitions />
+    <AstroFont
+      config={[
+        {
+          name: "THICCCBOI",
+          src: [
+            {
+              weight: 'bold',
+              style: 'normal',
+              path: join(process.cwd(), 'public', 'fonts', 'THICCCBOI-ThicccAF.woff2')
+            },
+          ],
+          preload: false,
+          display: "swap",
+          fallback: "sans-serif",
+          cssVariable: "font-thicccboi",
+        },
+        {
+          name: "THICCCBOI Medium",
+          src: [
+            {
+              weight: 'bold',
+              style: 'normal',
+              path: join(process.cwd(), 'public', 'fonts', 'THICCCBOI-Medium.woff2')
+            },
+          ],
+          preload: false,
+          display: "swap",
+          fallback: "sans-serif",
+          cssVariable: "font-thicccboi-medium",
+        },
+        {
+          name: "Montserrat-VariableFont",
+          src: [
+            {
+              style: 'normal',
+              path: join(process.cwd(), 'public', 'fonts', 'Montserrat-VariableFont_wght.ttf')
+            },
+          ],
+          preload: false,
+          display: "swap",
+          fallback: "sans-serif",
+          cssVariable: "font-montserrat",
+        },
+        {
+          name: "PROVICALI",
+          src: [
+            {
+              style: 'normal',
+              path: join(process.cwd(), 'public', 'fonts', 'Provicali.woff2')
+            },
+          ],
+          preload: false,
+          display: "swap",
+          fallback: "sans-serif",
+          cssVariable: "font-provicali",
+        },
+      ]}
+    />
   </head>
   <body class="font-paragraphs">
     <NavBar />

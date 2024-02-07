@@ -4,13 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Montserrat", "sans-serif"],
-        titles: ["PROVICALI", "sans-serif"],
-        brand: ["THICCCBOI", "sans-serif"],
-        brandSub: ["THICCCBOI Medium", "sans-serif"],
-        paragraphs: ["Montserrat", "sans-serif"],
+        sans: ["var(--font-montserrat)"],
+        brand: ["var(--font-thicccboi)"],
+        titles: ["var(--font-provicali)"],
+        paragraphs: ["var(--font-montserrat)"],
+        brandSub: ["var(--font-thicccboi-medium)"],
       },
-
       colors: {
         dark_cyan: {
           50: "#dae2e4",
@@ -106,5 +105,4 @@ export default {
       },
     },
   },
-  plugins: [],
 };
